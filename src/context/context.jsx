@@ -1,16 +1,16 @@
 import { createContext } from "react";
 
-import FlavorBite from "../assets/images/projects/Thumbnail/FlavorBite.webP";
-import Palmora from "../assets/images/projects/Thumbnail/Palmora.webP";
-import VillaVista from "../assets/images/projects/Thumbnail/VillaVista.webP";
-import Verdeluxe from "../assets/images/projects/Thumbnail/Verdeluxe.webP";
-import Tripora from "../assets/images/projects/Thumbnail/Tripora.webP";
-import SakuraHeaven from "../assets/images/projects/Thumbnail/SakuraHeaven.webP";
-import ApexTime from "../assets/images/projects/Thumbnail/ApexTime.webP";
-import DailyDrip from "../assets/images/projects/Thumbnail/DailyDrip.webP";
-import Avenza from "../assets/images/projects/Thumbnail/Avenza.webP";
-import LumaLiving from "../assets/images/projects/Thumbnail/LumaLiving.webP";
-import LuxStay from "../assets/images/projects/Thumbnail/LuxStay.webP";
+import FlavorBite from "../assets/images/projects/Thumbnail/FlavorBite.webp";
+import Palmora from "../assets/images/projects/Thumbnail/Palmora.webp";
+import VillaVista from "../assets/images/projects/Thumbnail/VillaVista.webp";
+import Verdeluxe from "../assets/images/projects/Thumbnail/Verdeluxe.webp";
+import Tripora from "../assets/images/projects/Thumbnail/Tripora.webp";
+import SakuraHeaven from "../assets/images/projects/Thumbnail/SakuraHeaven.webp";
+import ApexTime from "../assets/images/projects/Thumbnail/ApexTime.webp";
+import DailyDrip from "../assets/images/projects/Thumbnail/DailyDrip.webp";
+import Avenza from "../assets/images/projects/Thumbnail/Avenza.webp";
+import LumaLiving from "../assets/images/projects/Thumbnail/LumaLiving.webp";
+import LuxStay from "../assets/images/projects/Thumbnail/LuxStay.webp";
 import VelloraEstates from "../assets/images/projects/Thumbnail/VelloraEstates.webp";
 import TavolaFresca from "../assets/images/projects/Thumbnail/TavolaFresca.webp";
 import LunoraStudio from "../assets/images/projects/Thumbnail/LunoraStudio.webp";
