@@ -1,0 +1,115 @@
+:root {
+  /* COLORS */
+  --navy: #1c2d44;
+  --blue: #2f497a;
+  --gold: #d8b878;
+  --gray: #4e4d4b;
+  --cloud: #dadada;
+
+  /* SHADOW */
+  --shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.2) 0px 1px 2px;
+
+  /* SPACES */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 40px;
+  --space-6: 48px;
+  --space-7: 56px;
+  --space-8: 64px;
+  --space-9: 72px;
+  --space-10: 80px;
+  --space-11: 88px;
+  --space-12: 94px;
+
+  --space-0-5: 4px;
+  --space-1-5: 12px;
+  --space-2-5: 20px;
+  --space-3-5: 28px;
+
+  /* FONT SIZE */
+  --font-xs: 12px;
+  --font-sm: 14px;
+  --font-md: 16px;
+  --font-lg: 20px;
+  --font-xl: 24px;
+  --font-2xl: 32px;
+  --font-3xl: 48px;
+
+  /* FONT WEIGHT */
+  --font-normal: 400;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  /* RADIUS */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-25: 25px;
+  --radius-50: 50%;
+
+  /* FONTS */
+  --font-main: "Cinzel";
+  --font-secondary: "Open-Sans";
+}
+
+@font-face {
+  font-family: "Cinzel";
+  src: url(../assets/font/Cinzel/Cinzel-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  src: url(../assets/font/Open_Sans/static/OpenSans-Regular.ttf);
+}
+
+.section {
+  padding: var(--space-6) 4% var(--space-8);
+}
+
+/* MAIN BUTTON */
+.main-button {
+  font-family: var(--font-secondary);
+  font-size: var(--font-sm);
+  color: var(--navy);
+  background-color: var(--gold);
+  padding: 12px var(--space-3);
+  border: none;
+  position: relative;
+  z-index: 1;
+}
+
+.main-button::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 50%;
+  width: 0;
+  background-color: var(--blue);
+  z-index: -1;
+}
+
+.main-button:hover::before {
+  width: 100%;
+}
+
+.main-button::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 50%;
+  width: 0;
+  background-color: var(--blue);
+  z-index: -1;
+}
+
+.main-button:hover::after {
+  width: 100%;
+}
+
+.main-button:hover {
+  color: var(--gold);
+}

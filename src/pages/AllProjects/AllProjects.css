@@ -1,0 +1,15 @@
+.all-projects {
+  background-color: var(--cloud);
+}
+
+.all-projects-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-6);
+  margin-bottom: var(--space-8);
+}
+
+.all-projects .go-back {
+  display: flex;
+  margin: auto;
+}
