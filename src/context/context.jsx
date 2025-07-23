@@ -23,7 +23,7 @@ import NeatHaus from "../assets/images/projects/Thumbnail/NeatHaus.webp";
 import Notel from "../assets/images/projects/Thumbnail/Notel.webp";
 import PrimeSpaces from "../assets/images/projects/Thumbnail/PrimeSpaces.webp";
 import Monarch from "../assets/images/projects/Thumbnail/Monarch.webp";
-import Luxetick from "../assets/images/projects/Thumbnail/Luxetick.webp";
+import Luxetick from "../assets/images/projects/Thumbnail/LuxeTick.webp";
 import ChowChum from "../assets/images/projects/Thumbnail/ChowChum.webp";
 import PerfumeSpot from "../assets/images/projects/Thumbnail/PerfumeSpot.webp";
 import RentWheels from "../assets/images/projects/Thumbnail/RentWheels.webp";
