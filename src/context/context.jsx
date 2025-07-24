@@ -52,7 +52,7 @@ import IronHiveModal from "../assets/images/projects/Modal/IronHiveFull.webp";
 import NeatHausModal from "../assets/images/projects/Modal/NeatHausFull.webp";
 import NotelModal from "../assets/images/projects/Modal/NotelFull.webp";
 import PrimeSpacesModal from "../assets/images/projects/Modal/PrimeSpacesFull.webp";
-import MonarchModal from "../assets/images/projects/Modal/MonarchFull.webP";
+import MonarchModal from "../assets/images/projects/Modal/MonarchFull.webp";
 import LuxetickModal from "../assets/images/projects/Modal/LuxetickFull.webp";
 import ChowChumModal from "../assets/images/projects/Modal/ChowChumFull.webp";
 import PerfumeSpotModal from "../assets/images/projects/Modal/PerfumeSpotFull.webp";
