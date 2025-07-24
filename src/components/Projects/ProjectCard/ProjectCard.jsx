@@ -4,7 +4,7 @@ import { useState } from "react";
 import reactIcon from "../../../assets/icons/techs/react.webp";
 import cssIcon from "../../../assets/icons/techs/css.webp";
 
-import closeIcon from "../../../assets/icons/close.webP";
+import closeIcon from "../../../assets/icons/close.webp";
 
 function ProjectCard({ image, title, description, modal }) {
   const [isOpen, setIsOpen] = useState(false);

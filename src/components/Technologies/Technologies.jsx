@@ -1,19 +1,19 @@
 import "./Technologies.css";
 
-import htmlIcon from "../../assets/icons/technologies/html.png";
-import htmlDarkIcon from "../../assets/icons/technologies/html-dark.png";
-import cssIcon from "../../assets/icons/technologies/css.png";
-import cssDarkIcon from "../../assets/icons/technologies/css-dark.png";
-import jsIcon from "../../assets/icons/technologies/js.png";
-import jsDarkIcon from "../../assets/icons/technologies/js-dark.png";
-import reactIcon from "../../assets/icons/technologies/react.png";
-import reactDarkIcon from "../../assets/icons/technologies/react-dark.png";
-import nextIcon from "../../assets/icons/technologies/next.png";
-import nextDarkIcon from "../../assets/icons/technologies/next-dark.png";
-import tailwindIcon from "../../assets/icons/technologies/tailwind.png";
-import tailwindDarkIcon from "../../assets/icons/technologies/tailwind-dark.png";
-import bootstrapIcon from "../../assets/icons/technologies/bootstrap.png";
-import bootstrapDarkIcon from "../../assets/icons/technologies/bootstrap-dark.png";
+import htmlIcon from "../../assets/icons/technologies/html.webp";
+import htmlDarkIcon from "../../assets/icons/technologies/html-dark.webp";
+import cssIcon from "../../assets/icons/technologies/css.webp";
+import cssDarkIcon from "../../assets/icons/technologies/css-dark.webp";
+import jsIcon from "../../assets/icons/technologies/js.webp";
+import jsDarkIcon from "../../assets/icons/technologies/js-dark.webp";
+import reactIcon from "../../assets/icons/technologies/react.webp";
+import reactDarkIcon from "../../assets/icons/technologies/react-dark.webp";
+import nextIcon from "../../assets/icons/technologies/next.webp";
+import nextDarkIcon from "../../assets/icons/technologies/next-dark.webp";
+import tailwindIcon from "../../assets/icons/technologies/tailwind.webp";
+import tailwindDarkIcon from "../../assets/icons/technologies/tailwind-dark.webp";
+import bootstrapIcon from "../../assets/icons/technologies/bootstrap.webp";
+import bootstrapDarkIcon from "../../assets/icons/technologies/bootstrap-dark.webp";
 
 function Technologies() {
   return (

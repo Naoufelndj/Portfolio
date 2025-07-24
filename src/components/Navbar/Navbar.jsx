@@ -3,7 +3,7 @@ import { useState } from "react";
 
 import logo from "../../assets/logo/light-logo.webp";
 import listIcon from "../../assets/icons/navbar/list.webp";
-import closeIcon from "../../assets/icons/close.webP";
+import closeIcon from "../../assets/icons/close.webp";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
