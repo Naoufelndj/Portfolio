@@ -53,7 +53,7 @@ import NeatHausModal from "../assets/images/projects/Modal/NeatHausFull.webp";
 import NotelModal from "../assets/images/projects/Modal/NotelFull.webp";
 import PrimeSpacesModal from "../assets/images/projects/Modal/PrimeSpacesFull.webp";
 import MonarchModal from "../assets/images/projects/Modal/MonarchFull.webp";
-import LuxetickModal from "../assets/images/projects/Modal/LuxetickFull.webp";
+import LuxetickModal from "../assets/images/projects/Modal/LuxeTickFull.webp";
 import ChowChumModal from "../assets/images/projects/Modal/ChowChumFull.webp";
 import PerfumeSpotModal from "../assets/images/projects/Modal/PerfumeSpotFull.webp";
 import RentWheelsModal from "../assets/images/projects/Modal/RentWheelsFull.webp";
