@@ -13,3 +13,28 @@
   display: flex;
   margin: auto;
 }
+
+/* RESPONSIVNESS */
+@media (max-width: 1180px) {
+  .all-projects-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 820px) {
+  .all-projects-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 577px) {
+  .all-projects-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .all-projects-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
