@@ -29,6 +29,7 @@ import PerfumeSpot from "../assets/images/projects/Thumbnail/PerfumeSpot.webp";
 import RentWheels from "../assets/images/projects/Thumbnail/RentWheels.webp";
 import LuxeLooms from "../assets/images/projects/Thumbnail/LuxeLooms.webp";
 import Setora from "../assets/images/projects/Thumbnail/Setora.webp";
+import AdventurePulse from "../assets/images/projects/Thumbnail/AdventurePulse.webp";
 
 import FlavorBiteModal from "../assets/images/projects/Modal/FlavorBiteFull.webp";
 import PalmoraModal from "../assets/images/projects/Modal/PalmoraFull.webp";
@@ -59,6 +60,7 @@ import PerfumeSpotModal from "../assets/images/projects/Modal/PerfumeSpotFull.we
 import RentWheelsModal from "../assets/images/projects/Modal/RentWheelsFull.webp";
 import LuxeLoomsModal from "../assets/images/projects/Modal/LuxeLoomsFull.webp";
 import SetoraModal from "../assets/images/projects/Modal/SetoraFull.webp";
+import AdventurePulseModal from "../assets/images/projects/Modal/AdventurePulseFull.webp";
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const appContext = createContext();
@@ -113,18 +115,18 @@ const projects = [
   },
   {
     id: 7,
-    image: ApexTime,
-    title: "Apex Time - Watches Store",
-    description:
-      "Clean e-commerce website for premium watches and timeless style",
-    modal: ApexTimeModal,
+    image: LumaLiving,
+    title: "Luma Living - Furniture Agency",
+    description: "Minimal furniture website with soft colors and clean design",
+    modal: LumaLivingModal,
   },
   {
     id: 8,
-    image: DailyDrip,
-    title: "Daily Drip - Coffee Shop",
-    description: "Modern coffee shop website with cozy vibe and rich visuals",
-    modal: DailyDripModal,
+    image: LunoraStudio,
+    title: "Lunora Studio - Photography",
+    description:
+      "Photography portfolio website with clean gallery-style layout",
+    modal: LunoraStudioModal,
   },
   {
     id: 9,
@@ -135,28 +137,6 @@ const projects = [
   },
   {
     id: 10,
-    image: LumaLiving,
-    title: "Luma Living - Furniture Agency",
-    description: "Minimal furniture website with soft colors and clean design",
-    modal: LumaLivingModal,
-  },
-  {
-    id: 11,
-    image: LuxStay,
-    title: "Lux Stay - Modern Hotel",
-    description: "Modern hotel website with elegant layout and premium visuals",
-    modal: LuxStayModal,
-  },
-  {
-    id: 12,
-    image: VelloraEstates,
-    title: "Vellora Estates - Properties",
-    description:
-      "Real estate website for premium properties with elegant style",
-    modal: VelloraEstatesModal,
-  },
-  {
-    id: 13,
     image: TavolaFresca,
     title: "Tavola Fresca - Italian Restaurant",
     description:
@@ -164,15 +144,14 @@ const projects = [
     modal: TavolaFrescaModal,
   },
   {
-    id: 14,
-    image: LunoraStudio,
-    title: "Lunora Studio - Photography",
-    description:
-      "Photography portfolio website with clean gallery-style layout",
-    modal: LunoraStudioModal,
+    id: 11,
+    image: StayEase,
+    title: "Stay Ease - Hotel",
+    description: "Wood-themed hotel website with warm textures and cozy design",
+    modal: StayEaseModal,
   },
   {
-    id: 15,
+    id: 12,
     image: EliteGetaways,
     title: "Elite Getaways - Travel Agency",
     description:
@@ -180,101 +159,45 @@ const projects = [
     modal: EliteGetawaysModal,
   },
   {
-    id: 16,
-    image: GGStore,
-    title: "GG Store - Gaming Gear",
+    id: 13,
+    image: ApexTime,
+    title: "Apex Time - Watches Store",
     description:
-      "Gaming store website for selling high-end setups and accessories",
-    modal: GGStoreModal,
+      "Clean e-commerce website for premium watches and timeless style",
+    modal: ApexTimeModal,
+  },
+  {
+    id: 14,
+    image: DailyDrip,
+    title: "Daily Drip - Coffee Shop",
+    description: "Modern coffee shop website with cozy vibe and rich visuals",
+    modal: DailyDripModal,
+  },
+  {
+    id: 15,
+    image: AdventurePulse,
+    title: "Adventure Pulse - Switzerland",
+    description:
+      "Immersive outdoor adventure company website, featuring bold visuals and alpine-inspired design for thrilling Swiss experiences",
+    modal: AdventurePulseModal,
+  },
+  {
+    id: 16,
+    image: LuxStay,
+    title: "Lux Stay - Modern Hotel",
+    description: "Modern hotel website with elegant layout and premium visuals",
+    modal: LuxStayModal,
   },
   {
     id: 17,
-    image: StayEase,
-    title: "Stay Ease - Hotel",
-    description: "Wood-themed hotel website with warm textures and cozy design",
-    modal: StayEaseModal,
+    image: Setora,
+    title: "Setora - Gaming Setups",
+    description:
+      "Dark, bold landing page for a gaming setup brand, tailored for performance and style",
+    modal: SetoraModal,
   },
   {
     id: 18,
-    image: FloraBelle,
-    title: "Flora Belle - Flower Shop",
-    description:
-      "Charming flower shop website with soft colors and floral vibes",
-    modal: FloraBelleModal,
-  },
-  {
-    id: 19,
-    image: IronHive,
-    title: "Iron Hive - Gym",
-    description:
-      "Powerful gym website with bold visuals and dark modern layout",
-    modal: IronHiveModal,
-  },
-  {
-    id: 20,
-    image: NeatHaus,
-    title: "Neat Haus - Furniture Store",
-    description:
-      "Furniture e-commerce website with clean layout and neutral tones",
-    modal: NeatHausModal,
-  },
-  {
-    id: 21,
-    image: Notel,
-    title: "Notel - Hotel",
-    description:
-      "Nature-inspired hotel website with forest tones and clean layout",
-    modal: NotelModal,
-  },
-  {
-    id: 22,
-    image: PrimeSpaces,
-    title: "Prime Spaces - Interior Design",
-    description: "Modern design company website for homes, offices, and spaces",
-    modal: PrimeSpacesModal,
-  },
-  {
-    id: 23,
-    image: Monarch,
-    title: "Monarch - Car Rental",
-    description:
-      "Car rental website with sleek layout and luxury vehicle showcase",
-    modal: MonarchModal,
-  },
-  {
-    id: 24,
-    image: Luxetick,
-    title: "Luxetick - Watches Store",
-    description:
-      "Premium watches e-commerce site with elegant modern interface",
-    modal: LuxetickModal,
-  },
-  {
-    id: 25,
-    image: ChowChum,
-    title: "ChowChum - Pet Food Store",
-    description:
-      "Pet food e-commerce website with playful design and soft colors",
-    modal: ChowChumModal,
-  },
-  {
-    id: 26,
-    image: PerfumeSpot,
-    title: "Perfume Spot - Fragrance Store",
-    description:
-      "Elegant perfume store website with soft visuals and modern layout",
-    modal: PerfumeSpotModal,
-  },
-  {
-    id: 27,
-    image: RentWheels,
-    title: "Rent Wheels - Car Rental",
-    description:
-      "Algerian car rental website with sleek design and diverse vehicle selection",
-    modal: RentWheelsModal,
-  },
-  {
-    id: 28,
     image: LuxeLooms,
     title: "Luxe Looms - Perfumes",
     description:
@@ -282,12 +205,99 @@ const projects = [
     modal: LuxeLoomsModal,
   },
   {
-    id: 29,
-    image: Setora,
-    title: "Setora - Gaming Setups",
+    id: 19,
+    image: PrimeSpaces,
+    title: "Prime Spaces - Interior Design",
+    description: "Modern design company website for homes, offices, and spaces",
+    modal: PrimeSpacesModal,
+  },
+  {
+    id: 20,
+    image: GGStore,
+    title: "GG Store - Gaming Gear",
     description:
-      "Dark, bold landing page for a gaming setup brand, tailored for performance and style",
-    modal: SetoraModal,
+      "Gaming store website for selling high-end setups and accessories",
+    modal: GGStoreModal,
+  },
+  {
+    id: 21,
+    image: IronHive,
+    title: "Iron Hive - Gym",
+    description:
+      "Powerful gym website with bold visuals and dark modern layout",
+    modal: IronHiveModal,
+  },
+  {
+    id: 22,
+    image: VelloraEstates,
+    title: "Vellora Estates - Properties",
+    description:
+      "Real estate website for premium properties with elegant style",
+    modal: VelloraEstatesModal,
+  },
+  {
+    id: 23,
+    image: Notel,
+    title: "Notel - Hotel",
+    description:
+      "Nature-inspired hotel website with forest tones and clean layout",
+    modal: NotelModal,
+  },
+  {
+    id: 24,
+    image: RentWheels,
+    title: "Rent Wheels - Car Rental",
+    description:
+      "Algerian car rental website with sleek design and diverse vehicle selection",
+    modal: RentWheelsModal,
+  },
+  {
+    id: 25,
+    image: FloraBelle,
+    title: "Flora Belle - Flower Shop",
+    description:
+      "Charming flower shop website with soft colors and floral vibes",
+    modal: FloraBelleModal,
+  },
+  {
+    id: 26,
+    image: NeatHaus,
+    title: "Neat Haus - Furniture Store",
+    description:
+      "Furniture e-commerce website with clean layout and neutral tones",
+    modal: NeatHausModal,
+  },
+  {
+    id: 27,
+    image: Monarch,
+    title: "Monarch - Car Rental",
+    description:
+      "Car rental website with sleek layout and luxury vehicle showcase",
+    modal: MonarchModal,
+  },
+  {
+    id: 28,
+    image: Luxetick,
+    title: "Luxetick - Watches Store",
+    description:
+      "Premium watches e-commerce site with elegant modern interface",
+    modal: LuxetickModal,
+  },
+  {
+    id: 29,
+    image: ChowChum,
+    title: "ChowChum - Pet Food Store",
+    description:
+      "Pet food e-commerce website with playful design and soft colors",
+    modal: ChowChumModal,
+  },
+  {
+    id: 30,
+    image: PerfumeSpot,
+    title: "Perfume Spot - Fragrance Store",
+    description:
+      "Elegant perfume store website with soft visuals and modern layout",
+    modal: PerfumeSpotModal,
   },
 ];
 
