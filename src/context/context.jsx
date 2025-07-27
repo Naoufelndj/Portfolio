@@ -177,8 +177,7 @@ const projects = [
     id: 15,
     image: AdventurePulse,
     title: "Adventure Pulse - Switzerland",
-    description:
-      "Immersive outdoor adventure company website, featuring bold visuals and alpine-inspired design for thrilling Swiss experiences",
+    description: "Adventure company website with bold visuals and alpine style",
     modal: AdventurePulseModal,
   },
   {
