@@ -30,6 +30,7 @@ import RentWheels from "../assets/images/projects/Thumbnail/RentWheels.webp";
 import LuxeLooms from "../assets/images/projects/Thumbnail/LuxeLooms.webp";
 import Setora from "../assets/images/projects/Thumbnail/Setora.webp";
 import AdventurePulse from "../assets/images/projects/Thumbnail/AdventurePulse.webp";
+import Tranquara from "../assets/images/projects/Thumbnail/Tranquara.webp";
 
 import FlavorBiteModal from "../assets/images/projects/Modal/FlavorBiteFull.webp";
 import PalmoraModal from "../assets/images/projects/Modal/PalmoraFull.webp";
@@ -61,6 +62,7 @@ import RentWheelsModal from "../assets/images/projects/Modal/RentWheelsFull.webp
 import LuxeLoomsModal from "../assets/images/projects/Modal/LuxeLoomsFull.webp";
 import SetoraModal from "../assets/images/projects/Modal/SetoraFull.webp";
 import AdventurePulseModal from "../assets/images/projects/Modal/AdventurePulseFull.webp";
+import TranquaraModal from "../assets/images/projects/Modal/TranquaraFull.webp";
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const appContext = createContext();
@@ -182,13 +184,21 @@ const projects = [
   },
   {
     id: 16,
+    image: Tranquara,
+    title: "Tranquara - Spa & Wellness",
+    description:
+      "Serene spa and wellness website with soft visuals, calming tones, soft modern layout",
+    modal: TranquaraModal,
+  },
+  {
+    id: 17,
     image: LuxStay,
     title: "Lux Stay - Modern Hotel",
     description: "Modern hotel website with elegant layout and premium visuals",
     modal: LuxStayModal,
   },
   {
-    id: 17,
+    id: 18,
     image: Setora,
     title: "Setora - Gaming Setups",
     description:
@@ -196,7 +206,7 @@ const projects = [
     modal: SetoraModal,
   },
   {
-    id: 18,
+    id: 19,
     image: LuxeLooms,
     title: "Luxe Looms - Perfumes",
     description:
@@ -204,14 +214,14 @@ const projects = [
     modal: LuxeLoomsModal,
   },
   {
-    id: 19,
+    id: 20,
     image: PrimeSpaces,
     title: "Prime Spaces - Interior Design",
     description: "Modern design company website for homes, offices, and spaces",
     modal: PrimeSpacesModal,
   },
   {
-    id: 20,
+    id: 21,
     image: GGStore,
     title: "GG Store - Gaming Gear",
     description:
@@ -219,7 +229,7 @@ const projects = [
     modal: GGStoreModal,
   },
   {
-    id: 21,
+    id: 22,
     image: IronHive,
     title: "Iron Hive - Gym",
     description:
@@ -227,7 +237,7 @@ const projects = [
     modal: IronHiveModal,
   },
   {
-    id: 22,
+    id: 23,
     image: VelloraEstates,
     title: "Vellora Estates - Properties",
     description:
@@ -235,7 +245,7 @@ const projects = [
     modal: VelloraEstatesModal,
   },
   {
-    id: 23,
+    id: 24,
     image: Notel,
     title: "Notel - Hotel",
     description:
@@ -243,7 +253,7 @@ const projects = [
     modal: NotelModal,
   },
   {
-    id: 24,
+    id: 25,
     image: RentWheels,
     title: "Rent Wheels - Car Rental",
     description:
@@ -251,7 +261,7 @@ const projects = [
     modal: RentWheelsModal,
   },
   {
-    id: 25,
+    id: 26,
     image: FloraBelle,
     title: "Flora Belle - Flower Shop",
     description:
@@ -259,7 +269,7 @@ const projects = [
     modal: FloraBelleModal,
   },
   {
-    id: 26,
+    id: 27,
     image: NeatHaus,
     title: "Neat Haus - Furniture Store",
     description:
@@ -267,7 +277,7 @@ const projects = [
     modal: NeatHausModal,
   },
   {
-    id: 27,
+    id: 28,
     image: Monarch,
     title: "Monarch - Car Rental",
     description:
@@ -275,7 +285,7 @@ const projects = [
     modal: MonarchModal,
   },
   {
-    id: 28,
+    id: 29,
     image: Luxetick,
     title: "Luxetick - Watches Store",
     description:
@@ -283,7 +293,7 @@ const projects = [
     modal: LuxetickModal,
   },
   {
-    id: 29,
+    id: 30,
     image: ChowChum,
     title: "ChowChum - Pet Food Store",
     description:
@@ -291,7 +301,7 @@ const projects = [
     modal: ChowChumModal,
   },
   {
-    id: 30,
+    id: 31,
     image: PerfumeSpot,
     title: "Perfume Spot - Fragrance Store",
     description:
