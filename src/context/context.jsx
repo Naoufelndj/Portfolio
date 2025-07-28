@@ -31,6 +31,7 @@ import LuxeLooms from "../assets/images/projects/Thumbnail/LuxeLooms.webp";
 import Setora from "../assets/images/projects/Thumbnail/Setora.webp";
 import AdventurePulse from "../assets/images/projects/Thumbnail/AdventurePulse.webp";
 import Tranquara from "../assets/images/projects/Thumbnail/Tranquara.webp";
+import BazaTex from "../assets/images/projects/Thumbnail/BazaTex.webp";
 
 import FlavorBiteModal from "../assets/images/projects/Modal/FlavorBiteFull.webp";
 import PalmoraModal from "../assets/images/projects/Modal/PalmoraFull.webp";
@@ -63,6 +64,7 @@ import LuxeLoomsModal from "../assets/images/projects/Modal/LuxeLoomsFull.webp";
 import SetoraModal from "../assets/images/projects/Modal/SetoraFull.webp";
 import AdventurePulseModal from "../assets/images/projects/Modal/AdventurePulseFull.webp";
 import TranquaraModal from "../assets/images/projects/Modal/TranquaraFull.webp";
+import BazaTexModal from "../assets/images/projects/Modal/BazaTexFull.webp";
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const appContext = createContext();
@@ -199,6 +201,15 @@ const projects = [
   },
   {
     id: 18,
+    image: BazaTex,
+    title: "Baza Tex - Haberdashery Shop",
+    description:
+      "Charming Algerian haberdashery store website with a soft color palette and clean product showcase",
+    modal: BazaTexModal,
+  },
+
+  {
+    id: 19,
     image: Setora,
     title: "Setora - Gaming Setups",
     description:
@@ -206,7 +217,7 @@ const projects = [
     modal: SetoraModal,
   },
   {
-    id: 19,
+    id: 20,
     image: LuxeLooms,
     title: "Luxe Looms - Perfumes",
     description:
@@ -214,14 +225,14 @@ const projects = [
     modal: LuxeLoomsModal,
   },
   {
-    id: 20,
+    id: 21,
     image: PrimeSpaces,
     title: "Prime Spaces - Interior Design",
     description: "Modern design company website for homes, offices, and spaces",
     modal: PrimeSpacesModal,
   },
   {
-    id: 21,
+    id: 22,
     image: GGStore,
     title: "GG Store - Gaming Gear",
     description:
@@ -229,7 +240,7 @@ const projects = [
     modal: GGStoreModal,
   },
   {
-    id: 22,
+    id: 23,
     image: IronHive,
     title: "Iron Hive - Gym",
     description:
@@ -237,7 +248,7 @@ const projects = [
     modal: IronHiveModal,
   },
   {
-    id: 23,
+    id: 24,
     image: VelloraEstates,
     title: "Vellora Estates - Properties",
     description:
@@ -245,7 +256,7 @@ const projects = [
     modal: VelloraEstatesModal,
   },
   {
-    id: 24,
+    id: 25,
     image: Notel,
     title: "Notel - Hotel",
     description:
@@ -253,7 +264,7 @@ const projects = [
     modal: NotelModal,
   },
   {
-    id: 25,
+    id: 26,
     image: RentWheels,
     title: "Rent Wheels - Car Rental",
     description:
@@ -261,7 +272,7 @@ const projects = [
     modal: RentWheelsModal,
   },
   {
-    id: 26,
+    id: 27,
     image: FloraBelle,
     title: "Flora Belle - Flower Shop",
     description:
@@ -269,7 +280,7 @@ const projects = [
     modal: FloraBelleModal,
   },
   {
-    id: 27,
+    id: 28,
     image: NeatHaus,
     title: "Neat Haus - Furniture Store",
     description:
@@ -277,7 +288,7 @@ const projects = [
     modal: NeatHausModal,
   },
   {
-    id: 28,
+    id: 29,
     image: Monarch,
     title: "Monarch - Car Rental",
     description:
@@ -285,7 +296,7 @@ const projects = [
     modal: MonarchModal,
   },
   {
-    id: 29,
+    id: 30,
     image: Luxetick,
     title: "Luxetick - Watches Store",
     description:
@@ -293,7 +304,7 @@ const projects = [
     modal: LuxetickModal,
   },
   {
-    id: 30,
+    id: 31,
     image: ChowChum,
     title: "ChowChum - Pet Food Store",
     description:
@@ -301,7 +312,7 @@ const projects = [
     modal: ChowChumModal,
   },
   {
-    id: 31,
+    id: 32,
     image: PerfumeSpot,
     title: "Perfume Spot - Fragrance Store",
     description:
