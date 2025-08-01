@@ -32,6 +32,7 @@ import Setora from "../assets/images/projects/Thumbnail/Setora.webp";
 import AdventurePulse from "../assets/images/projects/Thumbnail/AdventurePulse.webp";
 import Tranquara from "../assets/images/projects/Thumbnail/Tranquara.webp";
 import BazaTex from "../assets/images/projects/Thumbnail/BazaTex.webp";
+import SmileCare from "../assets/images/projects/Thumbnail/SmileCare.webp";
 
 import FlavorBiteModal from "../assets/images/projects/Modal/FlavorBiteFull.webp";
 import PalmoraModal from "../assets/images/projects/Modal/PalmoraFull.webp";
@@ -65,6 +66,7 @@ import SetoraModal from "../assets/images/projects/Modal/SetoraFull.webp";
 import AdventurePulseModal from "../assets/images/projects/Modal/AdventurePulseFull.webp";
 import TranquaraModal from "../assets/images/projects/Modal/TranquaraFull.webp";
 import BazaTexModal from "../assets/images/projects/Modal/BazaTexFull.webp";
+import SmileCareModal from "../assets/images/projects/Modal/SmileCareFull.webp";
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const appContext = createContext();
@@ -204,10 +206,9 @@ const projects = [
     image: BazaTex,
     title: "Baza Tex - Haberdashery Shop",
     description:
-      "Charming Algerian haberdashery store website with a soft color palette and clean product showcase",
+      "Soft-toned Algerian haberdashery website with clean design and elegant product display",
     modal: BazaTexModal,
   },
-
   {
     id: 19,
     image: Setora,
@@ -257,6 +258,14 @@ const projects = [
   },
   {
     id: 25,
+    image: SmileCare,
+    title: "Smile Care - Dental Clinic",
+    description:
+      "Clean dental clinic website with soft colors, modern layout, aesthetic",
+    modal: SmileCareModal,
+  },
+  {
+    id: 26,
     image: Notel,
     title: "Notel - Hotel",
     description:
@@ -264,7 +273,7 @@ const projects = [
     modal: NotelModal,
   },
   {
-    id: 26,
+    id: 27,
     image: RentWheels,
     title: "Rent Wheels - Car Rental",
     description:
@@ -272,7 +281,7 @@ const projects = [
     modal: RentWheelsModal,
   },
   {
-    id: 27,
+    id: 28,
     image: FloraBelle,
     title: "Flora Belle - Flower Shop",
     description:
@@ -280,7 +289,7 @@ const projects = [
     modal: FloraBelleModal,
   },
   {
-    id: 28,
+    id: 29,
     image: NeatHaus,
     title: "Neat Haus - Furniture Store",
     description:
@@ -288,7 +297,7 @@ const projects = [
     modal: NeatHausModal,
   },
   {
-    id: 29,
+    id: 30,
     image: Monarch,
     title: "Monarch - Car Rental",
     description:
@@ -296,7 +305,7 @@ const projects = [
     modal: MonarchModal,
   },
   {
-    id: 30,
+    id: 31,
     image: Luxetick,
     title: "Luxetick - Watches Store",
     description:
@@ -304,7 +313,7 @@ const projects = [
     modal: LuxetickModal,
   },
   {
-    id: 31,
+    id: 32,
     image: ChowChum,
     title: "ChowChum - Pet Food Store",
     description:
@@ -312,7 +321,7 @@ const projects = [
     modal: ChowChumModal,
   },
   {
-    id: 32,
+    id: 33,
     image: PerfumeSpot,
     title: "Perfume Spot - Fragrance Store",
     description:
