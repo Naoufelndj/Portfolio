@@ -33,6 +33,7 @@ import AdventurePulse from "../assets/images/projects/Thumbnail/AdventurePulse.w
 import Tranquara from "../assets/images/projects/Thumbnail/Tranquara.webp";
 import BazaTex from "../assets/images/projects/Thumbnail/BazaTex.webp";
 import SmileCare from "../assets/images/projects/Thumbnail/SmileCare.webp";
+import FurLife from "../assets/images/projects/Thumbnail/FurLife.webp";
 
 import FlavorBiteModal from "../assets/images/projects/Modal/FlavorBiteFull.webp";
 import PalmoraModal from "../assets/images/projects/Modal/PalmoraFull.webp";
@@ -67,6 +68,7 @@ import AdventurePulseModal from "../assets/images/projects/Modal/AdventurePulseF
 import TranquaraModal from "../assets/images/projects/Modal/TranquaraFull.webp";
 import BazaTexModal from "../assets/images/projects/Modal/BazaTexFull.webp";
 import SmileCareModal from "../assets/images/projects/Modal/SmileCareFull.webp";
+import FurLifeModal from "../assets/images/projects/Modal/FurLifeFull.webp";
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const appContext = createContext();
@@ -206,7 +208,7 @@ const projects = [
     image: BazaTex,
     title: "Baza Tex - Haberdashery Shop",
     description:
-      "Soft-toned Algerian haberdashery website with clean design and elegant product display",
+      "Soft-toned Algerian haberdashery website, clean design and elegant product display",
     modal: BazaTexModal,
   },
   {
@@ -219,6 +221,14 @@ const projects = [
   },
   {
     id: 20,
+    image: FurLife,
+    title: "Fur Life - Veterinarian",
+    description:
+      "Warm and caring vet clinic website with soft visuals and a trust-focused design",
+    modal: FurLifeModal,
+  },
+  {
+    id: 21,
     image: LuxeLooms,
     title: "Luxe Looms - Perfumes",
     description:
@@ -226,14 +236,14 @@ const projects = [
     modal: LuxeLoomsModal,
   },
   {
-    id: 21,
+    id: 22,
     image: PrimeSpaces,
     title: "Prime Spaces - Interior Design",
     description: "Modern design company website for homes, offices, and spaces",
     modal: PrimeSpacesModal,
   },
   {
-    id: 22,
+    id: 23,
     image: GGStore,
     title: "GG Store - Gaming Gear",
     description:
@@ -241,7 +251,7 @@ const projects = [
     modal: GGStoreModal,
   },
   {
-    id: 23,
+    id: 24,
     image: IronHive,
     title: "Iron Hive - Gym",
     description:
@@ -249,7 +259,7 @@ const projects = [
     modal: IronHiveModal,
   },
   {
-    id: 24,
+    id: 25,
     image: VelloraEstates,
     title: "Vellora Estates - Properties",
     description:
@@ -257,7 +267,7 @@ const projects = [
     modal: VelloraEstatesModal,
   },
   {
-    id: 25,
+    id: 26,
     image: SmileCare,
     title: "Smile Care - Dental Clinic",
     description:
@@ -265,7 +275,7 @@ const projects = [
     modal: SmileCareModal,
   },
   {
-    id: 26,
+    id: 27,
     image: Notel,
     title: "Notel - Hotel",
     description:
@@ -273,7 +283,7 @@ const projects = [
     modal: NotelModal,
   },
   {
-    id: 27,
+    id: 28,
     image: RentWheels,
     title: "Rent Wheels - Car Rental",
     description:
@@ -281,7 +291,7 @@ const projects = [
     modal: RentWheelsModal,
   },
   {
-    id: 28,
+    id: 29,
     image: FloraBelle,
     title: "Flora Belle - Flower Shop",
     description:
@@ -289,7 +299,7 @@ const projects = [
     modal: FloraBelleModal,
   },
   {
-    id: 29,
+    id: 30,
     image: NeatHaus,
     title: "Neat Haus - Furniture Store",
     description:
@@ -297,7 +307,7 @@ const projects = [
     modal: NeatHausModal,
   },
   {
-    id: 30,
+    id: 31,
     image: Monarch,
     title: "Monarch - Car Rental",
     description:
@@ -305,7 +315,7 @@ const projects = [
     modal: MonarchModal,
   },
   {
-    id: 31,
+    id: 32,
     image: Luxetick,
     title: "Luxetick - Watches Store",
     description:
@@ -313,7 +323,7 @@ const projects = [
     modal: LuxetickModal,
   },
   {
-    id: 32,
+    id: 33,
     image: ChowChum,
     title: "ChowChum - Pet Food Store",
     description:
@@ -321,7 +331,7 @@ const projects = [
     modal: ChowChumModal,
   },
   {
-    id: 33,
+    id: 34,
     image: PerfumeSpot,
     title: "Perfume Spot - Fragrance Store",
     description:
