@@ -158,7 +158,7 @@ const projects = [
     image: Solvera,
     title: "Solvera - Mountain Resort",
     description:
-      "Scenic mountain resort website with autumn tones, wood-and-glass aesthetics, and serene visuals",
+      "Mountain resort website with autumn tones, scenic views, warm modern design",
     modal: SolveraModal,
   },
   {
