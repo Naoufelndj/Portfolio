@@ -36,6 +36,8 @@ import SmileCare from "../assets/images/projects/Thumbnail/SmileCare.webp";
 import FurLife from "../assets/images/projects/Thumbnail/FurLife.webp";
 import Solvera from "../assets/images/projects/Thumbnail/Solvera.webp";
 import Atélia from "../assets/images/projects/Thumbnail/Atélia.webp";
+import Opulence from "../assets/images/projects/Thumbnail/Opulence.webp";
+import Brewora from "../assets/images/projects/Thumbnail/Brewora.webp";
 
 import FlavorBiteModal from "../assets/images/projects/Modal/FlavorBiteFull.webp";
 import PalmoraModal from "../assets/images/projects/Modal/PalmoraFull.webp";
@@ -73,6 +75,8 @@ import SmileCareModal from "../assets/images/projects/Modal/SmileCareFull.webp";
 import FurLifeModal from "../assets/images/projects/Modal/FurLifeFull.webp";
 import SolveraModal from "../assets/images/projects/Modal/SolveraFull.webp";
 import AtéliaModal from "../assets/images/projects/Modal/AtéliaFull.webp";
+import OpulenceModal from "../assets/images/projects/Modal/OpulenceFull.webp";
+import BreworaModal from "../assets/images/projects/Modal/BreworaFull.webp";
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const appContext = createContext();
@@ -174,6 +178,13 @@ const projects = [
   },
   {
     id: 13,
+    image: Brewora,
+    title: "Brewora - Coffee Shop",
+    description: "Modern coffee shop website with cozy vibe and rich visuals",
+    modal: BreworaModal,
+  },
+  {
+    id: 14,
     image: EliteGetaways,
     title: "Elite Getaways - Travel Agency",
     description:
@@ -181,26 +192,19 @@ const projects = [
     modal: EliteGetawaysModal,
   },
   {
-    id: 14,
+    id: 15,
     image: StayEase,
     title: "Stay Ease - Hotel",
     description: "Wood-themed hotel website with warm textures and cozy design",
     modal: StayEaseModal,
   },
   {
-    id: 15,
+    id: 16,
     image: ApexTime,
     title: "Apex Time - Watches Store",
     description:
       "Clean e-commerce website for premium watches and timeless style",
     modal: ApexTimeModal,
-  },
-  {
-    id: 16,
-    image: DailyDrip,
-    title: "Daily Drip - Coffee Shop",
-    description: "Modern coffee shop website with cozy vibe and rich visuals",
-    modal: DailyDripModal,
   },
   {
     id: 17,
@@ -250,6 +254,14 @@ const projects = [
   },
   {
     id: 23,
+    image: Opulence,
+    title: "Opulence - Restaurant",
+    description:
+      "Fancy restaurant website with elegant design and luxurious feel",
+    modal: OpulenceModal,
+  },
+  {
+    id: 24,
     image: LuxeLooms,
     title: "Luxe Looms - Perfumes",
     description:
@@ -257,14 +269,14 @@ const projects = [
     modal: LuxeLoomsModal,
   },
   {
-    id: 24,
+    id: 25,
     image: PrimeSpaces,
     title: "Prime Spaces - Interior Design",
     description: "Modern design company website for homes, offices, and spaces",
     modal: PrimeSpacesModal,
   },
   {
-    id: 25,
+    id: 26,
     image: GGStore,
     title: "GG Store - Gaming Gear",
     description:
@@ -272,7 +284,7 @@ const projects = [
     modal: GGStoreModal,
   },
   {
-    id: 26,
+    id: 27,
     image: IronHive,
     title: "Iron Hive - Gym",
     description:
@@ -280,7 +292,14 @@ const projects = [
     modal: IronHiveModal,
   },
   {
-    id: 27,
+    id: 28,
+    image: DailyDrip,
+    title: "Daily Drip - Coffee Shop",
+    description: "Modern coffee shop website with cozy vibe and rich visuals",
+    modal: DailyDripModal,
+  },
+  {
+    id: 29,
     image: VelloraEstates,
     title: "Vellora Estates - Properties",
     description:
@@ -288,7 +307,7 @@ const projects = [
     modal: VelloraEstatesModal,
   },
   {
-    id: 28,
+    id: 30,
     image: SmileCare,
     title: "Smile Care - Dental Clinic",
     description:
@@ -296,7 +315,7 @@ const projects = [
     modal: SmileCareModal,
   },
   {
-    id: 29,
+    id: 31,
     image: Notel,
     title: "Notel - Hotel",
     description:
@@ -304,7 +323,7 @@ const projects = [
     modal: NotelModal,
   },
   {
-    id: 30,
+    id: 32,
     image: RentWheels,
     title: "Rent Wheels - Car Rental",
     description:
@@ -312,7 +331,7 @@ const projects = [
     modal: RentWheelsModal,
   },
   {
-    id: 31,
+    id: 33,
     image: FloraBelle,
     title: "Flora Belle - Flower Shop",
     description:
@@ -320,7 +339,7 @@ const projects = [
     modal: FloraBelleModal,
   },
   {
-    id: 32,
+    id: 34,
     image: NeatHaus,
     title: "Neat Haus - Furniture Store",
     description:
@@ -328,7 +347,7 @@ const projects = [
     modal: NeatHausModal,
   },
   {
-    id: 33,
+    id: 35,
     image: Monarch,
     title: "Monarch - Car Rental",
     description:
@@ -336,7 +355,7 @@ const projects = [
     modal: MonarchModal,
   },
   {
-    id: 34,
+    id: 36,
     image: Luxetick,
     title: "Luxetick - Watches Store",
     description:
@@ -344,7 +363,7 @@ const projects = [
     modal: LuxetickModal,
   },
   {
-    id: 35,
+    id: 37,
     image: ChowChum,
     title: "ChowChum - Pet Food Store",
     description:
@@ -352,7 +371,7 @@ const projects = [
     modal: ChowChumModal,
   },
   {
-    id: 36,
+    id: 38,
     image: PerfumeSpot,
     title: "Perfume Spot - Fragrance Store",
     description:
