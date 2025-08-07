@@ -220,19 +220,19 @@ const projects = [
     modal: StayEaseModal,
   },
   {
+    id: 19,
+    image: AdventurePulse,
+    title: "Adventure Pulse - Switzerland",
+    description: "Adventure company website with bold visuals and alpine style",
+    modal: AdventurePulseModal,
+  },
+  {
     id: 18,
     image: ApexTime,
     title: "Apex Time - Watches Store",
     description:
       "Clean e-commerce website for premium watches and timeless style",
     modal: ApexTimeModal,
-  },
-  {
-    id: 19,
-    image: AdventurePulse,
-    title: "Adventure Pulse - Switzerland",
-    description: "Adventure company website with bold visuals and alpine style",
-    modal: AdventurePulseModal,
   },
   {
     id: 20,
