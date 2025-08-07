@@ -11,7 +11,7 @@ const ScrollRevealInit = () => {
         ScrollReveal().reveal(el, {
           distance: "50px",
           origin,
-          duration: 1000,
+          duration: 800,
           delay: 200,
           reset: false,
           easing: "ease-in-out",

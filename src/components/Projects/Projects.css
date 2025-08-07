@@ -24,6 +24,7 @@
 @media (max-width: 820px) {
   .projects-container {
     grid-template-columns: repeat(1, 1fr);
+    gap: var(--space-4);
   }
 }
 
