@@ -194,7 +194,7 @@ const projects = [
     image: ReveBlanc,
     title: "Rêve Blanc - Weddings",
     description:
-      "Elegant wedding company website with soft colors and exclusive aesthetic",
+      "Elegant weddings company website with soft colors and exclusive aesthetic",
     modal: ReveBlancModal,
   },
   {
