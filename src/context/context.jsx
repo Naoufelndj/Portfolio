@@ -99,7 +99,7 @@ const projects = [
     image: Palmora,
     title: "Palmora - Hotel",
     description:
-      "Elegant tropical hotel website with clean and calming visuals",
+      "Elegant tropical hotel website with clean, aesthetic, calming visuals",
     modal: PalmoraModal,
   },
   {
