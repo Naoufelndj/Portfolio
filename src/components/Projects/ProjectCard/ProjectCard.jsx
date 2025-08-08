@@ -2,6 +2,7 @@ import "./ProjectCard.css";
 import { useState } from "react";
 
 import reactIcon from "../../../assets/icons/techs/react.webp";
+import jsIcon from "../../../assets/icons/techs/js.webp";
 import cssIcon from "../../../assets/icons/techs/css.webp";
 
 import closeIcon from "../../../assets/icons/close.webp";
@@ -21,6 +22,9 @@ function ProjectCard({ image, title, description, modal }) {
         <div className="techs">
           <div className="tech-icon">
             <img src={reactIcon} alt="React Icon" loading="lazy" />
+          </div>
+          <div className="tech-icon">
+            <img src={jsIcon} alt="Js Icon" loading="lazy" />
           </div>
           <div className="tech-icon">
             <img src={cssIcon} alt="CSS Icon" loading="lazy" />
