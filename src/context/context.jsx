@@ -79,8 +79,8 @@ import SolveraModal from "../assets/images/projects/Modal/SolveraFull.webp";
 import AtéliaModal from "../assets/images/projects/Modal/AtéliaFull.webp";
 import OpulenceModal from "../assets/images/projects/Modal/OpulenceFull.webp";
 import BreworaModal from "../assets/images/projects/Modal/BreworaFull.webp";
-import FocusPointModal from "../assets/images/projects/Modal/focusPointFull.webp";
-import ReveBlancModal from "../assets/images/projects/Modal/reveBlancFull.webp";
+import FocusPointModal from "../assets/images/projects/Modal/FocusPointFull.webp";
+import ReveBlancModal from "../assets/images/projects/Modal/ReveBlancFull.webp";
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const appContext = createContext();
