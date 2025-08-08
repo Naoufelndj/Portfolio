@@ -39,6 +39,7 @@ import Atélia from "../assets/images/projects/Thumbnail/Atélia.webp";
 import Opulence from "../assets/images/projects/Thumbnail/Opulence.webp";
 import Brewora from "../assets/images/projects/Thumbnail/Brewora.webp";
 import ReveBlanc from "../assets/images/projects/Thumbnail/ReveBlanc.webp";
+import FocusPoint from "../assets/images/projects/Thumbnail/FocusPoint.png";
 
 import FlavorBiteModal from "../assets/images/projects/Modal/FlavorBiteFull.webp";
 import PalmoraModal from "../assets/images/projects/Modal/PalmoraFull.webp";
@@ -79,6 +80,7 @@ import AtéliaModal from "../assets/images/projects/Modal/AtéliaFull.webp";
 import OpulenceModal from "../assets/images/projects/Modal/OpulenceFull.webp";
 import BreworaModal from "../assets/images/projects/Modal/BreworaFull.webp";
 import ReveBlancModal from "../assets/images/projects/Modal/ReveBlancFull.webp";
+import FocusPointModal from "../assets/images/projects/Modal/FocusPointFull.png";
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const appContext = createContext();
@@ -154,6 +156,14 @@ const projects = [
     description:
       "Photography portfolio website with clean gallery-style layout",
     modal: LunoraStudioModal,
+  },
+  {
+    id: 10,
+    image: FocusPoint,
+    title: "Focus Point - Photography Studio",
+    description:
+      "Photography studio website with bold visuals and modern aesthetic",
+    modal: FocusPointModal,
   },
   {
     id: 11,
