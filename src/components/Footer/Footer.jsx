@@ -7,8 +7,7 @@ import phoneIcon from "../../assets/icons/contact/phone.webp";
 
 import fbIcon from "../../assets/icons/social/fb.webp";
 import instaIcon from "../../assets/icons/social/insta.webp";
-import xIcon from "../../assets/icons/social/x.webp";
-import pinterestIcon from "../../assets/icons/social/pinterest.webp";
+import whatsappIcon from "../../assets/icons/social/whatsapp.webp";
 import githubIcon from "../../assets/icons/social/github.webp";
 
 function Footer() {
@@ -22,30 +21,53 @@ function Footer() {
         loading="lazy"
       />
       <div className="contact reveal" data-sr-origin="bottom">
-        <a href="#" className="contact-info number">
+        <a
+          href="https://wa.me/213676593365"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="contact-info number"
+        >
           <img src={phoneIcon} alt="number" loading="lazy" />
           +213 676 59 33 65
         </a>
         <div className="line"></div>
-        <a href="#" className="contact-info email">
+        <a
+          href="mailto:naoufelnedjaoum@gmail.com"
+          className="contact-info email"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src={emailIcon} alt="email" loading="lazy" />
           naoufelnedjaoum@gmail.com
         </a>
         <div className="line"></div>
         <div className="social-icons contact-info">
-          <a href="#">
+          <a
+            href="https://www.facebook.com/naoufel.ndje/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={fbIcon} alt="facebook" loading="lazy" />
           </a>
-          <a href="#">
-            <img src={instaIcon} alt="insta" loading="lazy" />
+          <a
+            href="https://www.instagram.com/naoufel._.ndj/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={instaIcon} alt="instagram" loading="lazy" />
           </a>
-          <a href="#">
-            <img src={xIcon} alt="x" loading="lazy" />
+          <a
+            href="https://wa.me/213676593365"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={whatsappIcon} alt="whatsapp" loading="lazy" />
           </a>
-          <a href="#">
-            <img src={pinterestIcon} alt="pinterest" loading="lazy" />
-          </a>
-          <a href="#">
+          <a
+            href="https://github.com/Naoufelndj"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={githubIcon} alt="github" loading="lazy" />
           </a>
         </div>
