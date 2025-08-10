@@ -98,7 +98,7 @@
 
 @media (max-width: 680px) {
   .about .image {
-    width: 48%;
+    width: 50%;
   }
 
   .about .image span {
@@ -108,7 +108,11 @@
 
 @media (max-width: 590px) {
   .about {
+    background-color: var(--cloud);
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: var(--space-8);
   }
 
@@ -125,15 +129,13 @@
   }
 
   .about .image {
-    width: 50%;
+    width: 60%;
+    display: flex;
+    margin: auto;
   }
 }
 
-@media (max-width: 576px) {
-  .about .image {
-    width: 50%;
-  }
-
+@media (max-width: 500px) {
   .about .image span {
     font-size: var(--font-md);
   }
@@ -141,6 +143,8 @@
 
 @media (max-width: 450px) {
   .about .image {
-    width: 85%;
+    width: 70%;
+    display: flex;
+    margin: auto;
   }
 }
