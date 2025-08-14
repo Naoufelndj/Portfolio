@@ -2,6 +2,7 @@ import "./styles/global.css";
 import "./styles/variables.css";
 import { Route, Routes } from "react-router-dom";
 import ContextProvider from "./context/context";
+import { Analytics } from "@vercel/analytics/next";
 
 import ScrollRevealInit from "./components/ScrollReveal/ScrollReveal";
 import Main from "./pages/Main/Main";
