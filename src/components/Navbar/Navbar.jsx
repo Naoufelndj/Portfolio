@@ -5,6 +5,11 @@ import logo from "../../assets/logo/light-logo.webp";
 import listIcon from "../../assets/icons/navbar/list.webp";
 import closeIcon from "../../assets/icons/close.webp";
 
+import fbIcon from "../../assets/icons/social/fb-dark.webp";
+import instaIcon from "../../assets/icons/social/insta-dark.webp";
+import whatsappIcon from "../../assets/icons/social/whatsapp-dark.webp";
+import githubIcon from "../../assets/icons/social/github-dark.webp";
+
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -15,29 +20,87 @@ function Navbar() {
       </div>
 
       <div className="right">
-        <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
+        {/* Desktop / Tablet */}
+        <ul className="nav-links desktop-nav">
           <li>
-            <a href="#home" onClick={() => setMenuOpen(false)}>
-              Home
-            </a>
+            <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#projects" onClick={() => setMenuOpen(false)}>
-              Projects
-            </a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="#tech" onClick={() => setMenuOpen(false)}>
-              Tech
-            </a>
+            <a href="#tech">Tech</a>
           </li>
           <li>
-            <a href="#about" onClick={() => setMenuOpen(false)}>
-              About
-            </a>
+            <a href="#about">About</a>
           </li>
         </ul>
 
+        {/* Mobile */}
+        <div className={`mobile-nav ${menuOpen ? "open" : ""}`}>
+          <div className="top">
+            <ul>
+              <li>
+                <a href="#home" onClick={() => setMenuOpen(false)}>
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="#projects" onClick={() => setMenuOpen(false)}>
+                  Projects
+                </a>
+              </li>
+              <li>
+                <a href="#tech" onClick={() => setMenuOpen(false)}>
+                  Tech
+                </a>
+              </li>
+              <li>
+                <a href="#about" onClick={() => setMenuOpen(false)}>
+                  About
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div className="bottom">
+            <a href="#footer" className="main-button">
+              Contact Me
+            </a>
+            <div className="social-icons contact-info">
+              <a
+                href="https://www.facebook.com/naoufel.ndje/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={fbIcon} alt="facebook" loading="lazy" />
+              </a>
+              <a
+                href="https://www.instagram.com/naoufel._.ndj/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={instaIcon} alt="instagram" loading="lazy" />
+              </a>
+              <a
+                href="https://wa.me/213676593365"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={whatsappIcon} alt="whatsapp" loading="lazy" />
+              </a>
+              <a
+                href="https://github.com/Naoufelndj"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={githubIcon} alt="github" loading="lazy" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* Mobile Menu Toggle */}
         <button className="open-list" onClick={() => setMenuOpen(!menuOpen)}>
           <img
             src={menuOpen ? closeIcon : listIcon}
