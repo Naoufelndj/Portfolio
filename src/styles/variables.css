@@ -52,7 +52,7 @@
 
   /* FONTS */
   --font-main: "Cinzel";
-  --font-secondary: "Open-Sans";
+  --font-secondary: "Inter";
 }
 
 @font-face {
@@ -61,8 +61,8 @@
 }
 
 @font-face {
-  font-family: "Open-Sans";
-  src: url(../assets/font/Open_Sans/static/OpenSans-Regular.ttf);
+  font-family: "Inter";
+  src: url(../assets/font/Inter/static/Inter_18pt-Regular.ttf);
 }
 
 .section {
@@ -76,6 +76,7 @@
   color: var(--navy);
   background-color: var(--gold);
   padding: 12px var(--space-3);
+  text-transform: uppercase;
   border: none;
   position: relative;
   z-index: 1;

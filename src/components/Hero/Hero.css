@@ -42,8 +42,8 @@
   font-family: var(--font-secondary);
   color: var(--cloud);
   font-size: var(--font-md);
-  width: 55%;
-  line-height: 1.8;
+  width: 52%;
+  line-height: 1.6;
 }
 
 .hero .go-down {
