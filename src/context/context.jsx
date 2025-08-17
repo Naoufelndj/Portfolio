@@ -244,7 +244,7 @@ const projects = [
     image: TheZéphyr,
     title: "The Zéphyr - Hotel ",
     description:
-      "Luxury 5-star Algerian hotel website with elegant design and seamless booking experience",
+      "Luxury 5-star Algerian hotel website with elegant design, seamless experience",
     modal: TheZéphyrModal,
   },
   {
