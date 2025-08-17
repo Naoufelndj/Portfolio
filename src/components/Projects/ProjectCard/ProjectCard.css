@@ -109,29 +109,12 @@
 }
 
 .modal {
-  position: relative;
   width: 90%;
   max-height: 90vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
-}
-
-.modal .close-button {
-  position: absolute;
-  top: var(--space-1);
-  right: 4%;
-  background: transparent;
-  border: none;
-  color: var(--white);
-  font-size: var(--font-xl);
-}
-
-.modal .close-button img {
-  width: 23px;
-}
-
-.modal .close-button:hover img {
-  transform: translateY(-2px);
+  position: relative;
 }
 
 .modal h2 {
@@ -141,7 +124,9 @@
   background-color: var(--blue);
   padding-inline: var(--space-1-5);
   margin-bottom: var(--space-3);
+  border-radius: var(--radius-sm);
   display: inline-block;
+  text-align: center;
   margin-inline: auto;
 }
 
@@ -153,10 +138,63 @@
   background-color: #f0f0f0;
   border-radius: 5px;
   box-shadow: var(--shadow);
+  position: relative;
 }
 
 .modal .image-scroll-wrapper img {
   width: 100%;
   display: block;
   object-fit: contain;
+}
+
+.modal .close-button {
+  position: absolute;
+  top: var(--space-11);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  background: var(--navy);
+  padding: var(--space-1);
+  border-radius: var(--radius-50);
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--font-xl);
+}
+
+.modal .close-button img {
+  width: 20px;
+}
+
+.modal .close-button:hover {
+  transform: translateY(-2px) translateX(-50%);
+}
+
+@media (max-width: 550px) {
+  .modal {
+    max-height: 94vh;
+    height: 94vh;
+  }
+
+  .modal .close-button {
+    top: var(--space-10);
+  }
+
+  .modal .close-button img {
+    width: 18px;
+  }
+}
+
+@media (max-width: 490px) {
+  .modal h2 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+  }
+
+  .modal .close-button img {
+    width: 16px;
+  }
 }
