@@ -108,7 +108,6 @@
 
 @media (max-width: 590px) {
   .about {
-    background-color: var(--cloud);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,12 +119,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 70%;
+    width: 90%;
   }
 
   .about .content p {
     font-size: var(--font-sm);
-    width: 90%;
+    width: 100%;
   }
 
   .about .image {
