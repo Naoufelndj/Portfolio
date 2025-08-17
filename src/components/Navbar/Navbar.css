@@ -19,7 +19,7 @@ header .right {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: var(--space-5);
+  gap: var(--space-6);
 }
 
 /* Desktop / Tablet nav */
@@ -27,7 +27,7 @@ header .right .nav-links {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: var(--space-5);
+  gap: var(--space-6);
 }
 
 header .right .nav-links a {
