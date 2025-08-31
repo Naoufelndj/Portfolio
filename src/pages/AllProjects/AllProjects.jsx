@@ -30,6 +30,7 @@ function AllProjects() {
             title={project.title}
             description={project.description}
             modal={project.modal}
+            techs={project.techs}
           />
         ))}
       </div>

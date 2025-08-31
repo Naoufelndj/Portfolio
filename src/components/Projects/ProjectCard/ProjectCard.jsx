@@ -1,13 +1,9 @@
 import "./ProjectCard.css";
 import { useState } from "react";
 
-import reactIcon from "../../../assets/icons/techs/react.webp";
-import jsIcon from "../../../assets/icons/techs/js.webp";
-import cssIcon from "../../../assets/icons/techs/css.webp";
-
 import closeIcon from "../../../assets/icons/close.webp";
 
-function ProjectCard({ image, title, description, modal }) {
+function ProjectCard({ image, title, description, modal, techs }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -20,15 +16,11 @@ function ProjectCard({ image, title, description, modal }) {
         <h3>{title}</h3>
         <p>{description}</p>
         <div className="techs">
-          <div className="tech-icon">
-            <img src={reactIcon} alt="React Icon" loading="lazy" />
-          </div>
-          <div className="tech-icon">
-            <img src={jsIcon} alt="Js Icon" loading="lazy" />
-          </div>
-          <div className="tech-icon">
-            <img src={cssIcon} alt="CSS Icon" loading="lazy" />
-          </div>
+          {techs.map((t, index) => (
+            <div className="tech-icon" key={index}>
+              <img src={t} alt="Icon" loading="lazy" />
+            </div>
+          ))}
         </div>
         <button className="main-button" onClick={() => setIsOpen(true)}>
           View Demo
