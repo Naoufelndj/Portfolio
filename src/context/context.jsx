@@ -245,6 +245,7 @@ const projects = [
     description:
       "Elegant ceramics studio website showcasing handcrafted pottery, modern designs, and an artistic portfolio.",
     modal: LuneCéramiqueModal,
+    techs: [nextIcon, jsIcon, cssIcon],
   },
   {
     id: 17,
