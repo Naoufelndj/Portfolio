@@ -30,6 +30,17 @@ header .right .nav-links {
   gap: var(--space-6);
 }
 
+header .mobile-nav .drawer-handle {
+  position: absolute;
+  top: var(--space-1);
+  left: 50%;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 18%;
+  background-color: #bfbfbf;
+  border-radius: 4px;
+}
+
 header .right .nav-links a {
   font-family: var(--font-secondary);
   color: var(--cloud);
@@ -108,7 +119,7 @@ header .right .open-list img {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: var(--space-6) 4% var(--space-2-5);
+    padding: var(--space-8) 4% var(--space-2-5);
   }
 
   header .mobile-nav .top ul {

@@ -12,6 +12,18 @@ import githubIcon from "../../assets/icons/social/github-dark.webp";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [startY, setStartY] = useState(null);
+
+  const handleTouchStart = (e) => setStartY(e.touches[0].clientY);
+
+  const handleTouchMove = (e) => {
+    if (!startY) return;
+    const currentY = e.touches[0].clientY;
+    if (currentY - startY > 80) {
+      setMenuOpen(false);
+      setStartY(null);
+    }
+  };
 
   return (
     <header>
@@ -37,7 +49,14 @@ function Navbar() {
         </ul>
 
         {/* Mobile */}
-        <div className={`mobile-nav ${menuOpen ? "open" : ""}`}>
+        <div
+          className={`mobile-nav ${menuOpen ? "open" : ""}`}
+          onTouchStart={handleTouchStart}
+          onTouchMove={handleTouchMove}
+        >
+          {/* Drawer handle */}
+          <div className="drawer-handle"></div>
+
           <div className="top">
             <ul>
               <li>
