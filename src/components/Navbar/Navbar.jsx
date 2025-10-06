@@ -49,13 +49,13 @@ function Navbar() {
         </ul>
 
         {/* Mobile */}
-        <div
-          className={`mobile-nav ${menuOpen ? "open" : ""}`}
-          onTouchStart={handleTouchStart}
-          onTouchMove={handleTouchMove}
-        >
-          {/* Drawer handle */}
-          <div className="drawer-handle"></div>
+        <div className={`mobile-nav ${menuOpen ? "open" : ""}`}>
+          <div
+            className="drawer-handle"
+            onTouchStart={handleTouchStart}
+            onTouchMove={handleTouchMove}
+            onClick={() => setMenuOpen(false)}
+          ></div>
 
           <div className="top">
             <ul>
