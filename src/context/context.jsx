@@ -270,6 +270,15 @@ const projects = [
   },
   {
     id: 19,
+    image: PerfumeSpot,
+    title: "Perfume Spot - Fragrance Store",
+    description:
+      "Elegant perfume store website with soft visuals and modern layout",
+    modal: PerfumeSpotModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 20,
     image: Avenza,
     title: "Avenza - Furniture Company",
     description: "Stylish furniture website with warm tones and modern layout",
@@ -277,7 +286,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 20,
+    id: 21,
     image: EliteGetaways,
     title: "Elite Getaways - Travel Agency",
     description:
@@ -286,7 +295,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 21,
+    id: 22,
     image: SakuraHeaven,
     title: "Sakura Heaven - Hotel & Spa",
     description:
@@ -295,7 +304,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 22,
+    id: 23,
     image: StayEase,
     title: "Stay Ease - Hotel",
     description: "Wood-themed hotel website with warm textures and cozy design",
@@ -303,7 +312,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 23,
+    id: 24,
     image: Linea,
     title: "Linea - Tech Accessories eCommerce",
     description:
@@ -312,7 +321,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 24,
+    id: 25,
     image: AdventurePulse,
     title: "Adventure Pulse - Switzerland",
     description: "Adventure company website with bold visuals and alpine style",
@@ -320,7 +329,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 25,
+    id: 26,
     image: TheZéphyr,
     title: "The Zéphyr - Hotel ",
     description:
@@ -329,7 +338,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 26,
+    id: 27,
     image: Lustra,
     title: "Lustra – Fine Restaurant",
     description:
@@ -338,7 +347,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 27,
+    id: 28,
     image: ApexTime,
     title: "Apex Time - Watches Store",
     description:
@@ -347,7 +356,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 28,
+    id: 29,
     image: Tranquara,
     title: "Tranquara - Spa & Wellness",
     description:
@@ -356,7 +365,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 29,
+    id: 30,
     image: AthLuxe,
     title: "AthLuxe - Luxury Gym",
     description:
@@ -365,7 +374,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 30,
+    id: 31,
     image: LuxStay,
     title: "Lux Stay - Modern Hotel",
     description: "Modern hotel website with elegant layout and premium visuals",
@@ -373,7 +382,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 31,
+    id: 32,
     image: BazaTex,
     title: "Baza Tex - Haberdashery Shop",
     description:
@@ -382,7 +391,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 32,
+    id: 33,
     image: Setora,
     title: "Setora - Gaming Setups",
     description:
@@ -391,7 +400,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 33,
+    id: 34,
     image: FurLife,
     title: "Fur Life - Veterinarian",
     description:
@@ -400,7 +409,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 34,
+    id: 35,
     image: Opulence,
     title: "Opulence - Restaurant",
     description:
@@ -409,7 +418,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 35,
+    id: 36,
     image: LuxeLooms,
     title: "Luxe Looms - Perfumes",
     description:
@@ -418,7 +427,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 36,
+    id: 37,
     image: PrimeSpaces,
     title: "Prime Spaces - Interior Design",
     description: "Modern design company website for homes, offices, and spaces",
@@ -426,7 +435,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 37,
+    id: 38,
     image: GGStore,
     title: "GG Store - Gaming Gear",
     description:
@@ -435,7 +444,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 38,
+    id: 39,
     image: IronHive,
     title: "Iron Hive - Gym",
     description:
@@ -444,7 +453,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 39,
+    id: 40,
     image: DailyDrip,
     title: "Daily Drip - Coffee Shop",
     description: "Modern coffee shop website with cozy vibe and rich visuals",
@@ -452,7 +461,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 40,
+    id: 41,
     image: VelloraEstates,
     title: "Vellora Estates - Properties",
     description:
@@ -461,7 +470,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 41,
+    id: 42,
     image: SmileCare,
     title: "Smile Care - Dental Clinic",
     description:
@@ -470,7 +479,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 42,
+    id: 43,
     image: Notel,
     title: "Notel - Hotel",
     description:
@@ -479,7 +488,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 43,
+    id: 44,
     image: RentWheels,
     title: "Rent Wheels - Car Rental",
     description:
@@ -488,7 +497,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 44,
+    id: 45,
     image: FloraBelle,
     title: "Flora Belle - Flower Shop",
     description:
@@ -497,7 +506,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 45,
+    id: 46,
     image: NeatHaus,
     title: "Neat Haus - Furniture Store",
     description:
@@ -506,7 +515,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 46,
+    id: 47,
     image: Monarch,
     title: "Monarch - Car Rental",
     description:
@@ -515,7 +524,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 47,
+    id: 48,
     image: Luxetick,
     title: "Luxetick - Watches Store",
     description:
@@ -524,21 +533,12 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 48,
+    id: 49,
     image: ChowChum,
     title: "ChowChum - Pet Food Store",
     description:
       "Pet food e-commerce website with playful design and soft colors",
     modal: ChowChumModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 49,
-    image: PerfumeSpot,
-    title: "Perfume Spot - Fragrance Store",
-    description:
-      "Elegant perfume store website with soft visuals and modern layout",
-    modal: PerfumeSpotModal,
     techs: [reactIcon, jsIcon, cssIcon],
   },
 ];
