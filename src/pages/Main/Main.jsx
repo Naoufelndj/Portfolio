@@ -13,7 +13,6 @@ function Main() {
       <Projects />
       <Technologies />
       <About />
-      <Footer />
     </>
   );
 }

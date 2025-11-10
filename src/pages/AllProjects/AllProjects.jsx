@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 import SectionTitle from "../../components/SectionTitle/SectionTitle";
 import ProjectCard from "../../components/Projects/ProjectCard/ProjectCard";
 
+import arrowIcon from "../../assets/icons/arrow-down-gold.webp";
+
 function AllProjects() {
   const { projects } = useContext(appContext);
 
@@ -40,6 +42,13 @@ function AllProjects() {
           Go Back
         </button>
       </Link>
+
+      <p className="cta">
+        Loved what you see? Let's build something great together
+        <a href="#footer">
+          <img src={arrowIcon} alt="go down" />
+        </a>
+      </p>
     </section>
   );
 }

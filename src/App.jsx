@@ -7,6 +7,7 @@ import { Analytics } from "@vercel/analytics/react";
 import ScrollRevealInit from "./components/ScrollReveal/ScrollReveal";
 import Main from "./pages/Main/Main";
 import AllProjects from "./pages/AllProjects/AllProjects";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <Route path="/" element={<Main />} />
         <Route path="/projects" element={<AllProjects />} />
       </Routes>
+
+      <Footer />
     </ContextProvider>
   );
 }
