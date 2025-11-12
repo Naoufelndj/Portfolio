@@ -6,6 +6,7 @@
   font-family: var(--font-main);
   color: var(--blue);
   font-size: var(--font-2xl);
+  font-weight: var(--font-normal);
   text-transform: uppercase;
   margin-bottom: var(--space-1-5);
 }

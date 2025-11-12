@@ -47,6 +47,7 @@
   font-family: var(--font-main);
   color: var(--gold);
   font-size: var(--font-xl);
+  font-weight: var(--font-normal);
   margin-bottom: var(--space-1);
   white-space: nowrap;
   overflow: hidden;

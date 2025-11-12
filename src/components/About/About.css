@@ -15,6 +15,7 @@
   font-family: var(--font-main);
   color: var(--blue);
   font-size: var(--font-2xl);
+  font-weight: var(--font-normal);
   margin-bottom: var(--space-2-5);
 }
 
@@ -38,6 +39,7 @@
   font-family: var(--font-main);
   color: var(--blue);
   font-size: var(--font-xl);
+  font-weight: var(--font-normal);
   margin-bottom: var(--space-1-5);
 }
 
@@ -64,7 +66,7 @@
   font-family: var(--font-main);
   font-size: var(--font-xl);
   padding: 2px var(--space-1);
-  font-weight: var(--font-semibold);
+  font-weight: var(--font-normal);
   text-align: center;
   box-shadow: var(--shadow);
 }
