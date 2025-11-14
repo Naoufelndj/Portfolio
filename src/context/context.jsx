@@ -262,242 +262,6 @@ const projects = [
   },
   {
     id: 18,
-    image: VillaVista,
-    title: "Villa Vista - Real Estate",
-    description: "Modern villas for sale website with global luxury listings",
-    modal: VillaVistaModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 19,
-    image: PerfumeSpot,
-    title: "Perfume Spot - Fragrance Store",
-    description:
-      "Elegant perfume store website with soft visuals and modern layout",
-    modal: PerfumeSpotModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 20,
-    image: Avenza,
-    title: "Avenza - Furniture Company",
-    description: "Stylish furniture website with warm tones and modern layout",
-    modal: AvenzaModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 21,
-    image: EliteGetaways,
-    title: "Elite Getaways - Travel Agency",
-    description:
-      "Luxury travel agency website with sleek design and soft colors",
-    modal: EliteGetawaysModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 22,
-    image: SakuraHeaven,
-    title: "Sakura Heaven - Hotel & Spa",
-    description:
-      "Japanese-themed hotel and spa website with soft serene visuals",
-    modal: SakuraHeavenModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 23,
-    image: StayEase,
-    title: "Stay Ease - Hotel",
-    description: "Wood-themed hotel website with warm textures and cozy design",
-    modal: StayEaseModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 24,
-    image: Linea,
-    title: "Linea - Tech Accessories eCommerce",
-    description:
-      "Modern eCommerce for tech accessories with clean UI and smooth shopping flow",
-    modal: LineaModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 25,
-    image: AdventurePulse,
-    title: "Adventure Pulse - Switzerland",
-    description: "Adventure company website with bold visuals and alpine style",
-    modal: AdventurePulseModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 26,
-    image: TheZéphyr,
-    title: "The Zéphyr - Hotel ",
-    description:
-      "Luxury 5-star Algerian hotel website with elegant design, seamless experience",
-    modal: TheZéphyrModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 27,
-    image: Lustra,
-    title: "Lustra – Fine Restaurant",
-    description:
-      "Sophisticated fine dining restaurant website with a luxurious atmosphere, gourmet dishes, and seamless reservation flow.",
-    modal: LustraModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 28,
-    image: ApexTime,
-    title: "Apex Time - Watches Store",
-    description:
-      "Clean e-commerce website for premium watches and timeless style",
-    modal: ApexTimeModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 29,
-    image: Tranquara,
-    title: "Tranquara - Spa & Wellness",
-    description:
-      "Serene spa and wellness website with soft visuals, calming tones, soft modern layout",
-    modal: TranquaraModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 30,
-    image: AthLuxe,
-    title: "AthLuxe - Luxury Gym",
-    description:
-      "High-end gym website with sleek design and premium fitness aesthetic",
-    modal: AthLuxeModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 31,
-    image: LuxStay,
-    title: "Lux Stay - Modern Hotel",
-    description: "Modern hotel website with elegant layout and premium visuals",
-    modal: LuxStayModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 32,
-    image: BazaTex,
-    title: "Baza Tex - Haberdashery Shop",
-    description:
-      "Soft-toned Algerian haberdashery website, clean design and elegant product display",
-    modal: BazaTexModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 33,
-    image: Setora,
-    title: "Setora - Gaming Setups",
-    description:
-      "Dark, bold landing page for a gaming setup brand, tailored for performance and style",
-    modal: SetoraModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 34,
-    image: FurLife,
-    title: "Fur Life - Veterinarian",
-    description:
-      "Warm and caring vet clinic website with soft visuals and a trust-focused design",
-    modal: FurLifeModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 35,
-    image: Opulence,
-    title: "Opulence - Restaurant",
-    description:
-      "Fancy restaurant website with elegant design and luxurious feel",
-    modal: OpulenceModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 36,
-    image: LuxeLooms,
-    title: "Luxe Looms - Perfumes",
-    description:
-      "Elegant perfume store website with refined design and luxurious aesthetic",
-    modal: LuxeLoomsModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 37,
-    image: PrimeSpaces,
-    title: "Prime Spaces - Interior Design",
-    description: "Modern design company website for homes, offices, and spaces",
-    modal: PrimeSpacesModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 38,
-    image: GGStore,
-    title: "GG Store - Gaming Gear",
-    description:
-      "Gaming store website for selling high-end setups and accessories",
-    modal: GGStoreModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 39,
-    image: IronHive,
-    title: "Iron Hive - Gym",
-    description:
-      "Powerful gym website with bold visuals and dark modern layout",
-    modal: IronHiveModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 40,
-    image: DailyDrip,
-    title: "Daily Drip - Coffee Shop",
-    description: "Modern coffee shop website with cozy vibe and rich visuals",
-    modal: DailyDripModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 41,
-    image: VelloraEstates,
-    title: "Vellora Estates - Properties",
-    description:
-      "Real estate website for premium properties with elegant style",
-    modal: VelloraEstatesModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 42,
-    image: SmileCare,
-    title: "Smile Care - Dental Clinic",
-    description:
-      "Clean dental clinic website with soft colors, modern layout, aesthetic",
-    modal: SmileCareModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 43,
-    image: Notel,
-    title: "Notel - Hotel",
-    description:
-      "Nature-inspired hotel website with forest tones and clean layout",
-    modal: NotelModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 44,
-    image: RentWheels,
-    title: "Rent Wheels - Car Rental",
-    description:
-      "Algerian car rental website with sleek design and diverse vehicle selection",
-    modal: RentWheelsModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 45,
     image: FloraBelle,
     title: "Flora Belle - Flower Shop",
     description:
@@ -506,12 +270,248 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 46,
+    id: 19,
     image: NeatHaus,
     title: "Neat Haus - Furniture Store",
     description:
       "Furniture e-commerce website with clean layout and neutral tones",
     modal: NeatHausModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 20,
+    image: VillaVista,
+    title: "Villa Vista - Real Estate",
+    description: "Modern villas for sale website with global luxury listings",
+    modal: VillaVistaModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 21,
+    image: PerfumeSpot,
+    title: "Perfume Spot - Fragrance Store",
+    description:
+      "Elegant perfume store website with soft visuals and modern layout",
+    modal: PerfumeSpotModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 22,
+    image: Avenza,
+    title: "Avenza - Furniture Company",
+    description: "Stylish furniture website with warm tones and modern layout",
+    modal: AvenzaModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 23,
+    image: EliteGetaways,
+    title: "Elite Getaways - Travel Agency",
+    description:
+      "Luxury travel agency website with sleek design and soft colors",
+    modal: EliteGetawaysModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 24,
+    image: SakuraHeaven,
+    title: "Sakura Heaven - Hotel & Spa",
+    description:
+      "Japanese-themed hotel and spa website with soft serene visuals",
+    modal: SakuraHeavenModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 25,
+    image: StayEase,
+    title: "Stay Ease - Hotel",
+    description: "Wood-themed hotel website with warm textures and cozy design",
+    modal: StayEaseModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 26,
+    image: Linea,
+    title: "Linea - Tech Accessories eCommerce",
+    description:
+      "Modern eCommerce for tech accessories with clean UI and smooth shopping flow",
+    modal: LineaModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 27,
+    image: AdventurePulse,
+    title: "Adventure Pulse - Switzerland",
+    description: "Adventure company website with bold visuals and alpine style",
+    modal: AdventurePulseModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 28,
+    image: TheZéphyr,
+    title: "The Zéphyr - Hotel ",
+    description:
+      "Luxury 5-star Algerian hotel website with elegant design, seamless experience",
+    modal: TheZéphyrModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 29,
+    image: Lustra,
+    title: "Lustra – Fine Restaurant",
+    description:
+      "Sophisticated fine dining restaurant website with a luxurious atmosphere, gourmet dishes, and seamless reservation flow.",
+    modal: LustraModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 30,
+    image: ApexTime,
+    title: "Apex Time - Watches Store",
+    description:
+      "Clean e-commerce website for premium watches and timeless style",
+    modal: ApexTimeModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 31,
+    image: Tranquara,
+    title: "Tranquara - Spa & Wellness",
+    description:
+      "Serene spa and wellness website with soft visuals, calming tones, soft modern layout",
+    modal: TranquaraModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 32,
+    image: AthLuxe,
+    title: "AthLuxe - Luxury Gym",
+    description:
+      "High-end gym website with sleek design and premium fitness aesthetic",
+    modal: AthLuxeModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 33,
+    image: LuxStay,
+    title: "Lux Stay - Modern Hotel",
+    description: "Modern hotel website with elegant layout and premium visuals",
+    modal: LuxStayModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 34,
+    image: BazaTex,
+    title: "Baza Tex - Haberdashery Shop",
+    description:
+      "Soft-toned Algerian haberdashery website, clean design and elegant product display",
+    modal: BazaTexModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 35,
+    image: Setora,
+    title: "Setora - Gaming Setups",
+    description:
+      "Dark, bold landing page for a gaming setup brand, tailored for performance and style",
+    modal: SetoraModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 36,
+    image: FurLife,
+    title: "Fur Life - Veterinarian",
+    description:
+      "Warm and caring vet clinic website with soft visuals and a trust-focused design",
+    modal: FurLifeModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 37,
+    image: Opulence,
+    title: "Opulence - Restaurant",
+    description:
+      "Fancy restaurant website with elegant design and luxurious feel",
+    modal: OpulenceModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 38,
+    image: LuxeLooms,
+    title: "Luxe Looms - Perfumes",
+    description:
+      "Elegant perfume store website with refined design and luxurious aesthetic",
+    modal: LuxeLoomsModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 39,
+    image: PrimeSpaces,
+    title: "Prime Spaces - Interior Design",
+    description: "Modern design company website for homes, offices, and spaces",
+    modal: PrimeSpacesModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 40,
+    image: GGStore,
+    title: "GG Store - Gaming Gear",
+    description:
+      "Gaming store website for selling high-end setups and accessories",
+    modal: GGStoreModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 41,
+    image: IronHive,
+    title: "Iron Hive - Gym",
+    description:
+      "Powerful gym website with bold visuals and dark modern layout",
+    modal: IronHiveModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 42,
+    image: DailyDrip,
+    title: "Daily Drip - Coffee Shop",
+    description: "Modern coffee shop website with cozy vibe and rich visuals",
+    modal: DailyDripModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 43,
+    image: VelloraEstates,
+    title: "Vellora Estates - Properties",
+    description:
+      "Real estate website for premium properties with elegant style",
+    modal: VelloraEstatesModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 44,
+    image: SmileCare,
+    title: "Smile Care - Dental Clinic",
+    description:
+      "Clean dental clinic website with soft colors, modern layout, aesthetic",
+    modal: SmileCareModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 45,
+    image: Notel,
+    title: "Notel - Hotel",
+    description:
+      "Nature-inspired hotel website with forest tones and clean layout",
+    modal: NotelModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 46,
+    image: RentWheels,
+    title: "Rent Wheels - Car Rental",
+    description:
+      "Algerian car rental website with sleek design and diverse vehicle selection",
+    modal: RentWheelsModal,
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
