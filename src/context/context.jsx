@@ -25,7 +25,7 @@ import StayEase from "../assets/images/projects/Thumbnail/StayEase.webp";
 import FloraBelle from "../assets/images/projects/Thumbnail/FloraBelle.webp";
 import IronHive from "../assets/images/projects/Thumbnail/IronHive.webp";
 import NeatHaus from "../assets/images/projects/Thumbnail/NeatHaus.webp";
-import Notel from "../assets/images/projects/Thumbnail/Notel.webp";
+import KyaningaLodge from "../assets/images/projects/Thumbnail/KyaningaLodge.webp";
 import PrimeSpaces from "../assets/images/projects/Thumbnail/PrimeSpaces.webp";
 import Monarch from "../assets/images/projects/Thumbnail/Monarch.webp";
 import Luxetick from "../assets/images/projects/Thumbnail/LuxeTick.webp";
@@ -75,7 +75,7 @@ import StayEaseModal from "../assets/images/projects/Modal/StayEaseFull.webp";
 import FloraBelleModal from "../assets/images/projects/Modal/FloraBelleFull.webp";
 import IronHiveModal from "../assets/images/projects/Modal/IronHiveFull.webp";
 import NeatHausModal from "../assets/images/projects/Modal/NeatHausFull.webp";
-import NotelModal from "../assets/images/projects/Modal/NotelFull.webp";
+import KyaningaLodgeModal from "../assets/images/projects/Modal/KyaningaLodgeFull.webp";
 import PrimeSpacesModal from "../assets/images/projects/Modal/PrimeSpacesFull.webp";
 import MonarchModal from "../assets/images/projects/Modal/MonarchFull.webp";
 import LuxetickModal from "../assets/images/projects/Modal/LuxeTickFull.webp";
@@ -498,11 +498,11 @@ const projects = [
   },
   {
     id: 45,
-    image: Notel,
-    title: "Notel - Hotel",
+    image: KyaningaLodge,
+    title: "Kyaninga Lodge - Hotel",
     description:
       "Nature-inspired hotel website with forest tones and clean layout",
-    modal: NotelModal,
+    modal: KyaningaLodgeModal,
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
