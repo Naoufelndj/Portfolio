@@ -280,10 +280,11 @@ const projects = [
   },
   {
     id: 20,
-    image: VillaVista,
-    title: "Villa Vista - Real Estate",
-    description: "Modern villas for sale website with global luxury listings",
-    modal: VillaVistaModal,
+    image: Luxetick,
+    title: "Luxetick - Watches Store",
+    description:
+      "Premium watches e-commerce site with elegant modern interface",
+    modal: LuxetickModal,
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
@@ -472,6 +473,23 @@ const projects = [
   },
   {
     id: 42,
+    image: ChowChum,
+    title: "ChowChum - Pet Food Store",
+    description:
+      "Pet food e-commerce website with playful design and soft colors",
+    modal: ChowChumModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 43,
+    image: VillaVista,
+    title: "Villa Vista - Real Estate",
+    description: "Modern villas for sale website with global luxury listings",
+    modal: VillaVistaModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 44,
     image: DailyDrip,
     title: "Daily Drip - Coffee Shop",
     description: "Modern coffee shop website with cozy vibe and rich visuals",
@@ -479,7 +497,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 43,
+    id: 45,
     image: VelloraEstates,
     title: "Vellora Estates - Properties",
     description:
@@ -488,7 +506,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 44,
+    id: 46,
     image: SmileCare,
     title: "Smile Care - Dental Clinic",
     description:
@@ -497,7 +515,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 45,
+    id: 47,
     image: KyaningaLodge,
     title: "Kyaninga Lodge - Hotel",
     description:
@@ -506,7 +524,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 46,
+    id: 48,
     image: RentWheels,
     title: "Rent Wheels - Car Rental",
     description:
@@ -515,30 +533,12 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 47,
+    id: 49,
     image: Monarch,
     title: "Monarch - Car Rental",
     description:
       "Car rental website with sleek layout and luxury vehicle showcase",
     modal: MonarchModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 48,
-    image: Luxetick,
-    title: "Luxetick - Watches Store",
-    description:
-      "Premium watches e-commerce site with elegant modern interface",
-    modal: LuxetickModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 49,
-    image: ChowChum,
-    title: "ChowChum - Pet Food Store",
-    description:
-      "Pet food e-commerce website with playful design and soft colors",
-    modal: ChowChumModal,
     techs: [reactIcon, jsIcon, cssIcon],
   },
 ];
