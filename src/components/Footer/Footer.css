@@ -1,26 +1,19 @@
 .footer {
-  background-color: var(--navy);
-  padding: var(--space-6) 3% var(--space-1-5);
+  background-color: var(--white);
+  padding: var(--space-8) 4% var(--space-2);
   position: relative;
-  border-top: 2px solid var(--gold);
-}
-
-.footer::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image: url(../../assets/images/noise.png);
-  background-repeat: repeat;
-  opacity: 0.6;
-  z-index: 0;
-  pointer-events: none;
+  border-top: 0.67px solid var(--light-gray);
 }
 
 .footer .logo {
   display: flex;
-  margin-inline: auto;
-  width: 120px;
-  margin-bottom: var(--space-7);
+  justify-content: center;
+  align-items: center;
+  margin-bottom: var(--space-8);
+}
+
+.footer .logo img {
+  width: 125px;
 }
 
 .footer .contact {
@@ -30,17 +23,17 @@
   width: 80%;
   margin-inline: auto;
   gap: var(--space-4);
-  margin-bottom: var(--space-9);
+  margin-bottom: var(--space-8);
 }
 
 .footer .contact-info {
   font-family: var(--font-secondary);
-  color: var(--cloud);
+  color: var(--black);
   font-size: var(--font-md);
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: var(--space-0-5);
+  gap: var(--space-1);
 }
 
 .footer .contact-info:hover {
@@ -52,14 +45,14 @@
 }
 
 .footer .line {
-  width: 1px;
+  width: 0.67px;
   height: 24px;
-  background-color: var(--gold);
+  background-color: var(--light-gray);
   opacity: 0.6;
 }
 
 .footer .social-icons {
-  gap: var(--space-1-5);
+  gap: var(--space-2);
 }
 
 .footer .social-icons img {
@@ -73,7 +66,7 @@
 .footer .rights {
   text-align: center;
   font-family: var(--font-secondary);
-  color: var(--cloud);
+  color: var(--text);
   font-size: var(--font-sm);
 }
 

@@ -1,25 +1,26 @@
 import "./Footer.css";
 
-import logo from "../../assets/logo/light-logo.webp";
+import logo from "../../assets/logo/logo-dark.webp";
 
 import emailIcon from "../../assets/icons/contact/email.webp";
 import phoneIcon from "../../assets/icons/contact/phone.webp";
 
-import fbIcon from "../../assets/icons/social/fb.webp";
-import instaIcon from "../../assets/icons/social/insta.webp";
-import whatsappIcon from "../../assets/icons/social/whatsapp.webp";
-import githubIcon from "../../assets/icons/social/github.webp";
+import fbIcon from "../../assets/icons/social/fb-dark.webp";
+import instaIcon from "../../assets/icons/social/insta-dark.webp";
+import xIcon from "../../assets/icons/social/x-dark.webp";
+import whatsappIcon from "../../assets/icons/social/whatsapp-dark.webp";
 
 function Footer() {
   return (
     <footer className="footer" id="footer">
-      <img
-        src={logo}
-        alt="naoufel ndj"
-        className="logo reveal"
-        data-sr-origin="bottom"
-        loading="lazy"
-      />
+      <div className="logo reveal">
+        <img
+          src={logo}
+          alt="naoufel ndj"
+          data-sr-origin="bottom"
+          loading="lazy"
+        />
+      </div>
       <div className="contact reveal" data-sr-origin="bottom">
         <a
           href="https://wa.me/213676593365"
@@ -68,12 +69,12 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={githubIcon} alt="github" loading="lazy" />
+            <img src={xIcon} alt="x" loading="lazy" />
           </a>
         </div>
       </div>
       <p className="rights">
-        © 2025 Naoufel NDJ — Front-End Developer & Web Designer
+        © 2025 Naoufel dev — Front-End Developer & Web Designer
       </p>
     </footer>
   );

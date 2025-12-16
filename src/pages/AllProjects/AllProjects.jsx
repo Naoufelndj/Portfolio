@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import SectionTitle from "../../components/SectionTitle/SectionTitle";
 import ProjectCard from "../../components/Projects/ProjectCard/ProjectCard";
 
-import arrowIcon from "../../assets/icons/arrow-down-gold.webp";
+import arrowIcon from "../../assets/icons/arrow-down.webp";
 
 function AllProjects() {
   const { projects } = useContext(appContext);

@@ -1,5 +1,6 @@
 .section-title {
-  margin-bottom: var(--space-6);
+  margin-bottom: var(--space-5);
+  display: inline-block;
 }
 
 .section-title h2 {
@@ -8,34 +9,11 @@
   font-size: var(--font-2xl);
   font-weight: var(--font-normal);
   text-transform: uppercase;
-  margin-bottom: var(--space-1-5);
+  margin-bottom: var(--space-3);
 }
 
-.section-title p {
-  font-family: var(--font-secondary);
-  color: var(--gray);
-  font-size: var(--font-md);
-  width: 45%;
-  line-height: 1.8;
-}
-
-/* RESPONSIVNESS */
-@media (max-width: 769px) {
-  .section-title p {
-    width: 65%;
-  }
-}
-
-@media (max-width: 577px) {
-  .section-title p {
-    width: 75%;
-    font-size: var(--font-sm);
-  }
-}
-
-@media (max-width: 576px) {
-  .section-title p {
-    width: 75%;
-    font-size: var(--font-sm);
-  }
+.section-title .line {
+  width: 35%;
+  height: 0.67px;
+  background-color: var(--black);
 }

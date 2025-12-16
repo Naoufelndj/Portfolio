@@ -1,12 +1,12 @@
 .projects {
-  background-color: var(--cloud);
+  background-color: var(--white);
 }
 
 .projects-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--space-6);
-  margin-bottom: var(--space-8);
+  margin-bottom: var(--space-10);
 }
 
 .projects .explore-all {

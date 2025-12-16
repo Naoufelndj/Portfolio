@@ -1,14 +1,14 @@
 import "./Navbar.css";
 import { useState } from "react";
 
-import logo from "../../assets/logo/light-logo.webp";
+import logo from "../../assets/logo/logo-dark.webp";
 import listIcon from "../../assets/icons/navbar/list.webp";
 import closeIcon from "../../assets/icons/close.webp";
 
 import fbIcon from "../../assets/icons/social/fb-dark.webp";
 import instaIcon from "../../assets/icons/social/insta-dark.webp";
 import whatsappIcon from "../../assets/icons/social/whatsapp-dark.webp";
-import githubIcon from "../../assets/icons/social/github-dark.webp";
+import xIcon from "../../assets/icons/social/x-dark.webp";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -113,7 +113,7 @@ function Navbar() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={githubIcon} alt="github" loading="lazy" />
+                <img src={xIcon} alt="x" loading="lazy" />
               </a>
             </div>
           </div>

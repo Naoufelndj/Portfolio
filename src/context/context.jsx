@@ -1,9 +1,9 @@
 import { createContext } from "react";
 
-import reactIcon from "../assets/icons/technologies/react.webp";
-import nextIcon from "../assets/icons/technologies/next.webp";
-import jsIcon from "../assets/icons/technologies/js.webp";
-import cssIcon from "../assets/icons/technologies/css.webp";
+import reactIcon from "../assets/icons/techs/react.webp";
+import nextIcon from "../assets/icons/techs/next.webp";
+import jsIcon from "../assets/icons/techs/js.webp";
+import cssIcon from "../assets/icons/techs/css.webp";
 
 import FlavorBite from "../assets/images/projects/Thumbnail/FlavorBite.webp";
 import Palmora from "../assets/images/projects/Thumbnail/Palmora.webp";

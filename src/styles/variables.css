@@ -1,11 +1,9 @@
 :root {
   /* COLORS */
-  --navy: #1c2d44;
-  --blue: #2f497a;
-  --gold: #d8b878;
-  --gray: #4e4d4b;
-  --cloud: #dadada;
-  --black: #333333;
+  --black: #000000;
+  --white: #ffffff;
+  --text: #333333;
+  --light-gray: #dadada;
 
   /* SHADOW */
   --shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.2) 0px 1px 2px;
@@ -51,33 +49,33 @@
   --radius-50: 50%;
 
   /* FONTS */
-  --font-main: "Cinzel";
-  --font-secondary: "Inter";
+  --font-main: "Quicksand";
+  --font-secondary: "Raleway";
 }
 
 @font-face {
-  font-family: "Cinzel";
-  src: url(../assets/font/Cinzel/Cinzel-VariableFont_wght.ttf);
+  font-family: "Quicksand";
+  src: url(../assets/font/Quicksand/static/Quicksand-Regular.ttf);
 }
 
 @font-face {
-  font-family: "Inter";
-  src: url(../assets/font/Inter/static/Inter_18pt-Regular.ttf);
+  font-family: "Raleway";
+  src: url(../assets/font/Raleway/static/Raleway-Regular.ttf);
 }
 
 .section {
-  padding: var(--space-6) 4% var(--space-8);
+  padding: var(--space-8) 4%;
 }
 
 /* MAIN BUTTON */
 .main-button {
   font-family: var(--font-secondary);
   font-size: var(--font-sm);
-  color: var(--navy);
-  background-color: var(--gold);
-  padding: 12px var(--space-3);
+  color: var(--white);
+  background-color: var(--black);
+  padding: var(--space-1-5) var(--space-3);
   text-transform: uppercase;
-  border: none;
+  border: 0.67px solid var(--black);
   position: relative;
   z-index: 1;
 }
@@ -89,7 +87,7 @@
   top: 0;
   height: 50%;
   width: 0;
-  background-color: var(--blue);
+  background-color: var(--white);
   z-index: -1;
 }
 
@@ -104,7 +102,7 @@
   bottom: 0;
   height: 50%;
   width: 0;
-  background-color: var(--blue);
+  background-color: var(--white);
   z-index: -1;
 }
 
@@ -113,5 +111,5 @@
 }
 
 .main-button:hover {
-  color: var(--gold);
+  color: var(--black);
 }

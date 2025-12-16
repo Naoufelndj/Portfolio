@@ -3,7 +3,7 @@ import { useState } from "react";
 
 import closeIcon from "../../../assets/icons/close.webp";
 
-function ProjectCard({ image, title, description, modal, techs }) {
+function ProjectCard({ image, title, modal, techs }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -14,17 +14,18 @@ function ProjectCard({ image, title, description, modal, techs }) {
 
       <div className="content">
         <h3>{title}</h3>
-        <p>{description}</p>
-        <div className="techs">
-          {techs.map((t, index) => (
-            <div className="tech-icon" key={index}>
-              <img src={t} alt="Icon" loading="lazy" />
-            </div>
-          ))}
+        <div className="row">
+          <div className="techs">
+            {techs.map((t, index) => (
+              <div className="tech-icon" key={index}>
+                <img src={t} alt="Icon" loading="lazy" />
+              </div>
+            ))}
+          </div>
+          <button className="main-button" onClick={() => setIsOpen(true)}>
+            View Demo
+          </button>
         </div>
-        <button className="main-button" onClick={() => setIsOpen(true)}>
-          View Demo
-        </button>
       </div>
 
       {isOpen && (
