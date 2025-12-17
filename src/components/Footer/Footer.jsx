@@ -33,13 +33,13 @@ function Footer() {
         </a>
         <div className="line"></div>
         <a
-          href="mailto:naoufelnedjaoum@gmail.com"
+          href="mailto:naoufeldev@gmail.com"
           className="contact-info email"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img src={emailIcon} alt="email" loading="lazy" />
-          naoufelnedjaoum@gmail.com
+          naoufeldev@gmail.com
         </a>
         <div className="line"></div>
         <div className="social-icons contact-info">
