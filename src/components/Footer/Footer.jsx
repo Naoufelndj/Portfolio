@@ -44,14 +44,14 @@ function Footer() {
         <div className="line"></div>
         <div className="social-icons contact-info">
           <a
-            href="https://www.facebook.com/naoufel.ndje/"
+            href="https://www.facebook.com/profile.php?id=61585269600585&mibextid=wwXIfr&rdid=OsLr8RSzPzPaJBwM&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1AA74iKECL%2F%3Fmibextid%3DwwXIfr"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src={fbIcon} alt="facebook" loading="lazy" />
           </a>
           <a
-            href="https://www.instagram.com/naoufel._.ndj/"
+            href="https://www.instagram.com/naoufeldev/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -65,7 +65,7 @@ function Footer() {
             <img src={whatsappIcon} alt="whatsapp" loading="lazy" />
           </a>
           <a
-            href="https://github.com/Naoufelndj"
+            href="https://x.com/Naoufeldev"
             target="_blank"
             rel="noopener noreferrer"
           >
