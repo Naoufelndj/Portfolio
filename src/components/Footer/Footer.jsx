@@ -32,12 +32,7 @@ function Footer() {
           +213 676 59 33 65
         </a>
         <div className="line"></div>
-        <a
-          href="mailto:naoufeldev@gmail.com"
-          className="contact-info email"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="mailto:naoufeldev@gmail.com" className="contact-info email">
           <img src={emailIcon} alt="email" loading="lazy" />
           naoufeldev@gmail.com
         </a>

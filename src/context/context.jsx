@@ -21,17 +21,14 @@ import TavolaFresca from "../assets/images/projects/Thumbnail/TavolaFresca.webp"
 import LunoraStudio from "../assets/images/projects/Thumbnail/LunoraStudio.webp";
 import EliteGetaways from "../assets/images/projects/Thumbnail/EliteGetaways.webp";
 import GGStore from "../assets/images/projects/Thumbnail/GGStore.webp";
-import StayEase from "../assets/images/projects/Thumbnail/StayEase.webp";
 import FloraBelle from "../assets/images/projects/Thumbnail/FloraBelle.webp";
 import IronHive from "../assets/images/projects/Thumbnail/IronHive.webp";
 import NeatHaus from "../assets/images/projects/Thumbnail/NeatHaus.webp";
 import KyaningaLodge from "../assets/images/projects/Thumbnail/KyaningaLodge.webp";
 import PrimeSpaces from "../assets/images/projects/Thumbnail/PrimeSpaces.webp";
-import Monarch from "../assets/images/projects/Thumbnail/Monarch.webp";
 import Luxetick from "../assets/images/projects/Thumbnail/LuxeTick.webp";
 import ChowChum from "../assets/images/projects/Thumbnail/ChowChum.webp";
 import PerfumeSpot from "../assets/images/projects/Thumbnail/PerfumeSpot.webp";
-import RentWheels from "../assets/images/projects/Thumbnail/RentWheels.webp";
 import LuxeLooms from "../assets/images/projects/Thumbnail/LuxeLooms.webp";
 import Setora from "../assets/images/projects/Thumbnail/Setora.webp";
 import AdventurePulse from "../assets/images/projects/Thumbnail/AdventurePulse.webp";
@@ -71,17 +68,14 @@ import TavolaFrescaModal from "../assets/images/projects/Modal/TavolaFrescaFull.
 import LunoraStudioModal from "../assets/images/projects/Modal/LunoraStudioFull.webp";
 import EliteGetawaysModal from "../assets/images/projects/Modal/EliteGetawaysFull.webp";
 import GGStoreModal from "../assets/images/projects/Modal/GGStoreFull.webp";
-import StayEaseModal from "../assets/images/projects/Modal/StayEaseFull.webp";
 import FloraBelleModal from "../assets/images/projects/Modal/FloraBelleFull.webp";
 import IronHiveModal from "../assets/images/projects/Modal/IronHiveFull.webp";
 import NeatHausModal from "../assets/images/projects/Modal/NeatHausFull.webp";
 import KyaningaLodgeModal from "../assets/images/projects/Modal/KyaningaLodgeFull.webp";
 import PrimeSpacesModal from "../assets/images/projects/Modal/PrimeSpacesFull.webp";
-import MonarchModal from "../assets/images/projects/Modal/MonarchFull.webp";
 import LuxetickModal from "../assets/images/projects/Modal/LuxeTickFull.webp";
 import ChowChumModal from "../assets/images/projects/Modal/ChowChumFull.webp";
 import PerfumeSpotModal from "../assets/images/projects/Modal/PerfumeSpotFull.webp";
-import RentWheelsModal from "../assets/images/projects/Modal/RentWheelsFull.webp";
 import LuxeLoomsModal from "../assets/images/projects/Modal/LuxeLoomsFull.webp";
 import SetoraModal from "../assets/images/projects/Modal/SetoraFull.webp";
 import AdventurePulseModal from "../assets/images/projects/Modal/AdventurePulseFull.webp";
@@ -111,15 +105,6 @@ export const appContext = createContext();
 const projects = [
   {
     id: 1,
-    image: FlavorBite,
-    title: "Flavor Bite - Restaurant",
-    description:
-      "Luxury restaurant website with elegant design and modern layout",
-    modal: FlavorBiteModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 2,
     image: Palmora,
     title: "Palmora - Hotel",
     description:
@@ -128,7 +113,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 3,
+    id: 2,
     image: Atélia,
     title: "Atélia - Interior Studio",
     description:
@@ -137,13 +122,22 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 4,
-    image: Luméa,
-    title: "Luméa - Private Island Resort",
+    id: 3,
+    image: FlavorBite,
+    title: "Flavor Bite - Restaurant",
     description:
-      "Exclusive private island resort website showcasing luxury villas, amenities, and booking options",
-    modal: LuméaModal,
-    techs: [nextIcon, jsIcon, cssIcon],
+      "Luxury restaurant website with elegant design and modern layout",
+    modal: FlavorBiteModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 4,
+    image: Linea,
+    title: "Linea - Tech Accessories eCommerce",
+    description:
+      "Modern eCommerce for tech accessories with clean UI and smooth shopping flow",
+    modal: LineaModal,
+    techs: [reactIcon, jsIcon, cssIcon],
   },
   {
     id: 5,
@@ -164,33 +158,15 @@ const projects = [
   },
   {
     id: 7,
-    image: Verdeluxe,
-    title: "Verdeluxe - Nature Retreat",
+    image: Luméa,
+    title: "Luméa - Private Island Resort",
     description:
-      "Beautiful nature retreat website with earthy tones and calm style",
-    modal: VerdeluxeModal,
-    techs: [reactIcon, jsIcon, cssIcon],
+      "Exclusive private island resort website showcasing luxury villas, amenities, and booking options",
+    modal: LuméaModal,
+    techs: [nextIcon, jsIcon, cssIcon],
   },
   {
     id: 8,
-    image: Tripora,
-    title: "Tripora - Travel Agency",
-    description:
-      "Modern travel agency website with clean layout and vibrant visuals",
-    modal: TriporaModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 9,
-    image: LunoraStudio,
-    title: "Lunora Studio - Photography",
-    description:
-      "Photography portfolio website with clean gallery-style layout",
-    modal: LunoraStudioModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 10,
     image: FocusPoint,
     title: "Focus Point - Photography Studio",
     description:
@@ -199,69 +175,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 11,
-    image: TavolaFresca,
-    title: "Tavola Fresca - Italian Restaurant",
-    description:
-      "Italian restaurant website with classic feel and modern layout",
-    modal: TavolaFrescaModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 12,
-    image: Brewora,
-    title: "Brewora - Coffee Shop",
-    description: "Modern coffee shop website with cozy vibe and rich visuals",
-    modal: BreworaModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 13,
-    image: ReveBlanc,
-    title: "Rêve Blanc - Weddings",
-    description:
-      "Elegant weddings company website with soft colors and exclusive aesthetic",
-    modal: ReveBlancModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 14,
-    image: LinguaNova,
-    title: "Lingua Nova - Languages School",
-    description:
-      "Modern language school website with courses, programs, and online application system",
-    modal: LinguaNovaModal,
-    techs: [nextIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 15,
-    image: Maravel,
-    title: "Maravel - Yachts Rental",
-    description:
-      "Luxury yacht rental website featuring premium yachts, exclusive experiences, and easy booking",
-    modal: MaravelModal,
-    techs: [nextIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 16,
-    image: DouxMatin,
-    title: "Doux Matin - Bakery & Pastry",
-    description:
-      "A warm and minimal bakery website highlighting handcrafted breads, pastries, and café delights with an inviting aesthetic.",
-    modal: DouxMatinModal,
-    techs: [nextIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 17,
-    image: LuneCéramique,
-    title: "Lune Céramique - Ceramics Studio",
-    description:
-      "Elegant ceramics studio website showcasing handcrafted pottery, modern designs, and an artistic portfolio.",
-    modal: LuneCéramiqueModal,
-    techs: [nextIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 18,
+    id: 9,
     image: FloraBelle,
     title: "Flora Belle - Flower Shop",
     description:
@@ -270,21 +184,101 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 19,
-    image: NeatHaus,
-    title: "Neat Haus - Furniture Store",
-    description:
-      "Furniture e-commerce website with clean layout and neutral tones",
-    modal: NeatHausModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 20,
+    id: 10,
     image: Luxetick,
     title: "Luxetick - Watches Store",
     description:
       "Premium watches e-commerce site with elegant modern interface",
     modal: LuxetickModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 11,
+    image: Tripora,
+    title: "Tripora - Travel Agency",
+    description:
+      "Modern travel agency website with clean layout and vibrant visuals",
+    modal: TriporaModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 12,
+    image: LunoraStudio,
+    title: "Lunora Studio - Photography",
+    description:
+      "Photography portfolio website with clean gallery-style layout",
+    modal: LunoraStudioModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 13,
+    image: TavolaFresca,
+    title: "Tavola Fresca - Italian Restaurant",
+    description:
+      "Italian restaurant website with classic feel and modern layout",
+    modal: TavolaFrescaModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 14,
+    image: Brewora,
+    title: "Brewora - Coffee Shop",
+    description: "Modern coffee shop website with cozy vibe and rich visuals",
+    modal: BreworaModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 15,
+    image: ReveBlanc,
+    title: "Rêve Blanc - Weddings",
+    description:
+      "Elegant weddings company website with soft colors and exclusive aesthetic",
+    modal: ReveBlancModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 16,
+    image: LinguaNova,
+    title: "Lingua Nova - Languages School",
+    description:
+      "Modern language school website with courses, programs, and online application system",
+    modal: LinguaNovaModal,
+    techs: [nextIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 17,
+    image: Maravel,
+    title: "Maravel - Yachts Rental",
+    description:
+      "Luxury yacht rental website featuring premium yachts, exclusive experiences, and easy booking",
+    modal: MaravelModal,
+    techs: [nextIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 18,
+    image: DouxMatin,
+    title: "Doux Matin - Bakery & Pastry",
+    description:
+      "A warm and minimal bakery website highlighting handcrafted breads, pastries, and café delights with an inviting aesthetic.",
+    modal: DouxMatinModal,
+    techs: [nextIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 19,
+    image: LuneCéramique,
+    title: "Lune Céramique - Ceramics Studio",
+    description:
+      "Elegant ceramics studio website showcasing handcrafted pottery, modern designs, and an artistic portfolio.",
+    modal: LuneCéramiqueModal,
+    techs: [nextIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 20,
+    image: NeatHaus,
+    title: "Neat Haus - Furniture Store",
+    description:
+      "Furniture e-commerce website with clean layout and neutral tones",
+    modal: NeatHausModal,
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
@@ -324,23 +318,6 @@ const projects = [
   },
   {
     id: 25,
-    image: StayEase,
-    title: "Stay Ease - Hotel",
-    description: "Wood-themed hotel website with warm textures and cozy design",
-    modal: StayEaseModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 26,
-    image: Linea,
-    title: "Linea - Tech Accessories eCommerce",
-    description:
-      "Modern eCommerce for tech accessories with clean UI and smooth shopping flow",
-    modal: LineaModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 27,
     image: AdventurePulse,
     title: "Adventure Pulse - Switzerland",
     description: "Adventure company website with bold visuals and alpine style",
@@ -348,7 +325,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 28,
+    id: 26,
     image: TheZéphyr,
     title: "The Zéphyr - Hotel ",
     description:
@@ -357,16 +334,25 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 29,
+    id: 27,
     image: Lustra,
-    title: "Lustra – Fine Restaurant",
+    title: "Lustra - Fine Restaurant",
     description:
       "Sophisticated fine dining restaurant website with a luxurious atmosphere, gourmet dishes, and seamless reservation flow.",
     modal: LustraModal,
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 30,
+    id: 28,
+    image: Verdeluxe,
+    title: "Verdeluxe - Nature Retreat",
+    description:
+      "Beautiful nature retreat website with earthy tones and calm style",
+    modal: VerdeluxeModal,
+    techs: [reactIcon, jsIcon, cssIcon],
+  },
+  {
+    id: 29,
     image: ApexTime,
     title: "Apex Time - Watches Store",
     description:
@@ -375,7 +361,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 31,
+    id: 30,
     image: Tranquara,
     title: "Tranquara - Spa & Wellness",
     description:
@@ -384,7 +370,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 32,
+    id: 31,
     image: AthLuxe,
     title: "AthLuxe - Luxury Gym",
     description:
@@ -393,7 +379,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 33,
+    id: 32,
     image: LuxStay,
     title: "Lux Stay - Modern Hotel",
     description: "Modern hotel website with elegant layout and premium visuals",
@@ -401,7 +387,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 34,
+    id: 33,
     image: BazaTex,
     title: "Baza Tex - Haberdashery Shop",
     description:
@@ -410,7 +396,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 35,
+    id: 34,
     image: Setora,
     title: "Setora - Gaming Setups",
     description:
@@ -419,7 +405,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 36,
+    id: 35,
     image: FurLife,
     title: "Fur Life - Veterinarian",
     description:
@@ -428,7 +414,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 37,
+    id: 36,
     image: Opulence,
     title: "Opulence - Restaurant",
     description:
@@ -437,7 +423,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 38,
+    id: 37,
     image: LuxeLooms,
     title: "Luxe Looms - Perfumes",
     description:
@@ -446,7 +432,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 39,
+    id: 38,
     image: PrimeSpaces,
     title: "Prime Spaces - Interior Design",
     description: "Modern design company website for homes, offices, and spaces",
@@ -454,7 +440,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 40,
+    id: 39,
     image: GGStore,
     title: "GG Store - Gaming Gear",
     description:
@@ -463,7 +449,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 41,
+    id: 40,
     image: IronHive,
     title: "Iron Hive - Gym",
     description:
@@ -472,7 +458,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 42,
+    id: 41,
     image: ChowChum,
     title: "ChowChum - Pet Food Store",
     description:
@@ -481,7 +467,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 43,
+    id: 42,
     image: VillaVista,
     title: "Villa Vista - Real Estate",
     description: "Modern villas for sale website with global luxury listings",
@@ -489,7 +475,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 44,
+    id: 43,
     image: DailyDrip,
     title: "Daily Drip - Coffee Shop",
     description: "Modern coffee shop website with cozy vibe and rich visuals",
@@ -497,7 +483,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 45,
+    id: 44,
     image: VelloraEstates,
     title: "Vellora Estates - Properties",
     description:
@@ -506,7 +492,7 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 46,
+    id: 45,
     image: SmileCare,
     title: "Smile Care - Dental Clinic",
     description:
@@ -515,30 +501,12 @@ const projects = [
     techs: [reactIcon, jsIcon, cssIcon],
   },
   {
-    id: 47,
+    id: 46,
     image: KyaningaLodge,
     title: "Kyaninga Lodge - Hotel",
     description:
       "Nature-inspired hotel website with forest tones and clean layout",
     modal: KyaningaLodgeModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 48,
-    image: RentWheels,
-    title: "Rent Wheels - Car Rental",
-    description:
-      "Algerian car rental website with sleek design and diverse vehicle selection",
-    modal: RentWheelsModal,
-    techs: [reactIcon, jsIcon, cssIcon],
-  },
-  {
-    id: 49,
-    image: Monarch,
-    title: "Monarch - Car Rental",
-    description:
-      "Car rental website with sleek layout and luxury vehicle showcase",
-    modal: MonarchModal,
     techs: [reactIcon, jsIcon, cssIcon],
   },
 ];
