@@ -8,11 +8,11 @@ import whatsappIcon from "../../assets/icons/social/whatsapp-dark.webp";
 function Hero() {
   return (
     <section className="hero">
-      <div className="content reveal" data-sr-origin="bottom">
-        <div className="title">
+      <div className="content">
+        <div className="title reveal" data-sr-origin="left">
           <h1>Front-End Developer with a Designer's Eye</h1>
         </div>
-        <div className="desc">
+        <div className="desc reveal" data-sr-origin="right">
           <p>
             I design intuitive user interfaces and build them into fast,
             responsive front-end experiences using React.js.
@@ -20,11 +20,15 @@ function Hero() {
         </div>
       </div>
 
-      <a href="#projects" className="main-button view-work">
+      <a
+        href="#projects"
+        className="main-button view-work reveal"
+        data-sr-origin="bottom"
+      >
         View My Work
       </a>
 
-      <div className="social">
+      <div className="social reveal" data-sr-origin="bottom">
         <div className="line line1"></div>
         <div className="line line2"></div>
         <div className="line line3"></div>
