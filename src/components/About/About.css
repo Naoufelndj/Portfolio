@@ -27,10 +27,6 @@
   line-height: 1.7;
 }
 
-/* .about .content p span {
-  font-weight: var(--font-semibold);
-} */
-
 .about .content h3 {
   font-family: var(--font-main);
   color: var(--black);
