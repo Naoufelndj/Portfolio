@@ -3,6 +3,7 @@ import "./Hero.css";
 import fbIcon from "../../assets/icons/social/fb-dark.webp";
 import instaIcon from "../../assets/icons/social/insta-dark.webp";
 import xIcon from "../../assets/icons/social/x-dark.webp";
+import tiktokIcon from "../../assets/icons/social/tiktok-dark.webp";
 import whatsappIcon from "../../assets/icons/social/whatsapp-dark.webp";
 
 function Hero() {
@@ -47,18 +48,25 @@ function Hero() {
           <img src={instaIcon} alt="instagram" loading="lazy" />
         </a>
         <a
-          href="https://wa.me/213676593365"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={whatsappIcon} alt="whatsapp" loading="lazy" />
-        </a>
-        <a
           href="https://x.com/Naoufeldev"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img src={xIcon} alt="x" loading="lazy" />
+        </a>
+        <a
+          href="https://www.tiktok.com/@naoufel.dev"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={tiktokIcon} alt="tiktok" loading="lazy" />
+        </a>
+        <a
+          href="https://wa.me/213676593365"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={whatsappIcon} alt="whatsapp" loading="lazy" />
         </a>
       </div>
     </section>
