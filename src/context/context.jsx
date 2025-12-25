@@ -47,7 +47,7 @@ import Linea from "../assets/images/projects/Thumbnail/Linea.webp";
 import TheZéphyr from "../assets/images/projects/Thumbnail/TheZéphyr.webp";
 import LinguaNova from "../assets/images/projects/Thumbnail/LinguaNova.webp";
 import Luméa from "../assets/images/projects/Thumbnail/Luméa.webp";
-import Maravel from "../assets/images/projects/Thumbnail/Maravel.webp";
+import Maravela from "../assets/images/projects/Thumbnail/Maravela.webp";
 import LuneCéramique from "../assets/images/projects/Thumbnail/LuneCéramique.webp";
 import Lustra from "../assets/images/projects/Thumbnail/Lustra.webp";
 import DouxMatin from "../assets/images/projects/Thumbnail/DouxMatin.webp";
@@ -95,7 +95,7 @@ import LineaModal from "../assets/images/projects/Modal/LineaFull.webp";
 import TheZéphyrModal from "../assets/images/projects/Modal/TheZéphyrFull.webp";
 import LinguaNovaModal from "../assets/images/projects/Modal/LinguaNovaFull.webp";
 import LuméaModal from "../assets/images/projects/Modal/LuméaFull.webp";
-import MaravelModal from "../assets/images/projects/Modal/MaravelFull.webp";
+import MaravelaModal from "../assets/images/projects/Modal/MaravelaFull.webp";
 import LuneCéramiqueModal from "../assets/images/projects/Modal/LuneCéramiqueFull.webp";
 import LustraModal from "../assets/images/projects/Modal/LustraFull.webp";
 import DouxMatinModal from "../assets/images/projects/Modal/DouxMatinFull.webp";
@@ -249,11 +249,11 @@ const projects = [
   },
   {
     id: 17,
-    image: Maravel,
-    title: "Maravel - Yachts Rental",
+    image: Maravela,
+    title: "Maravela - Yachts Rental",
     description:
       "Luxury yacht rental website featuring premium yachts, exclusive experiences, and easy booking",
-    modal: MaravelModal,
+    modal: MaravelaModal,
     techs: [nextIcon, jsIcon, cssIcon],
   },
   {
